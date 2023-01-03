@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital@1&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://coolors.co/3b4367-fbf7ef-fdd8c5-51372a-7e7261');
+
+body {
+    max-width: 760px;
+    background: #fbf7ef;
+}
+nav {
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+    background-color: #51372a;
+    color: #f4ead5;
+}
+main {
+    max-width: 760px;
+    viewport-fit: center;
+}
+header {
+    display: flex;
+    margin: auto;
+    background-color: #3B4367;
+    color: #fdd8c5;
+}
+img {
+    max-width: 10%;
+}
+section {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+section {
+
+}
+footer {
+
+}
