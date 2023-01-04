@@ -1,10 +1,7 @@
 @media only screen and (min-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital@1&family=Rubik:ital,wght@1,300&display=swap');
-    @import url('https://coolors.co/3b4367-fbf7ef-fdd8c5-51372a-7e7261');
-    
+
     :root {
-        --heading-font: Anybody&family;
-        --paragraph-font: Poppins:ital@1&family, Rubik:ital,wght@1,300&display=swap;
+        --heading-font: "Anybody";
         --primary-color: #fbf7ef;
         --secondary-color: #3b4367;
         --accent1-color: #7e7261;
@@ -12,7 +9,6 @@
         --accent3-color: #51372a;
     }
     body {
-        max-width: 900px;
         background: var(--primary-color);
         font-size: 16px;
         line-height: 1.5;
@@ -38,15 +34,17 @@
     a {
         color: var(--accent3-color);
         padding: 5px;
+        font: var(--paragraph-font);
     }
     main {
         padding: 20px;
-        max-width: 760px;
+        max-width: 1800px;
         margin: 1rem auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     header {
+        height: 125px;
         display: flex;
         background-color: #3B4367;
         color: var(--accent2-color);
@@ -64,7 +62,6 @@
     .card h3{
         margin: 0;
         position: relative;
-        grid-template-columns: 1fr;
         background: var(--accent1-color);
     }
     #learning {
@@ -103,6 +100,9 @@
         padding: 10px;
         border-radius: 15px 15px 0px 0px;
     }
+    li {
+        list-style-type: none;
+    }
     li a{
         clear: left;
     }
@@ -112,9 +112,9 @@
         margin: auto;
         padding: 0.5rem;
         color: var(--primary-color);
-        background-color: var(--secondary-color);
-    
+        background-color: var(--secondary-color);    
     }
+
     .highlight {
         color: yellow;
     }
