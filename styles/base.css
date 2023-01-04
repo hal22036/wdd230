@@ -63,23 +63,7 @@ header {
     border-radius: 20px;
     box-shadow: 5px 5px 5px #7e72615f;
 }
-.card h3{
-    margin: 0;
-    position: relative;
-    background: var(--accent1-color);
-}
-#learning {
-    grid-row: 3/5;
-    grid-column: 1/2;
-}
-#project {
-    grid-row: 3/4;
-    grid-column: 2/3;
-}
-#information {
-    grid-row: 4/5;
-    grid-column: 2/3;
-}
+
 h1 {
     margin: auto;
     justify-content: center;
@@ -99,6 +83,8 @@ h2 {
     grid-row: 2/3;
 }
 h3 {
+    margin: 0;
+    background: var(--accent1-color);
     text-align: center;
     color: var(--primary-color);
     padding: 10px;
