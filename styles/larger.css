@@ -67,6 +67,7 @@
         grid-column: 1/2;
     }
     #project {
+        text-align: center;
         grid-row: 3/4;
         grid-column: 2/3;
     }

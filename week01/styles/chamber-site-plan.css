@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rowdies&family=Source+Sans+Pro&display=swap');
+@import url('https://coolors.co/d76d47-7398bf-6a544e-2d3239-d9c2ab');
+
+:root {
+    --primary-color: #D76D47;
+    --secondary-color: #7398BF;
+    --accent1-color: #6A544E;
+    --accent2-color: #48505B;
+    --accent3-color: #D9C1AB;
+    --heading-font: "Rowdies";
+    --title-font: "Anton";
+    --paragraph-font: "Source Sans Pro";
+}
+
+body {
+    font-size: 18px;
+}
+.colors td{
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+}
+.accent2 {
+    background-color: var(--accent2-color);
+}
+.accent3 {
+    background-color: var(--accent3-color);
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.colors {
+    text-align: center;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+h1{
+    font-family: var(--title-font);
+}
+h2 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+h3 {
+    font-family: var(--paragraph-font);
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+h4 {
+    font: var(--paragraph-font);
+    color: var(--accent1-color);
+    font-weight: bolder;
+}
+p {
+    color: var(--accent2-color);
+    font: var(--paragraph-font)
+}
