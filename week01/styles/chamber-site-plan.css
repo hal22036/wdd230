@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rowdies&family=Source+Sans+Pro&display=swap');
-@import url('https://coolors.co/d76d47-7398bf-6a544e-2d3239-d9c2ab');
+@import url('https://coolors.co/d76d47-7398bf-6a544e-48505b-d9c2ab');
 
 :root {
     --primary-color: #D76D47;
     --secondary-color: #7398BF;
     --accent1-color: #6A544E;
     --accent2-color: #48505B;
-    --accent3-color: #D9C1AB;
+    --accent3-color: #D9C2AB;
     --heading-font: "Rowdies";
     --title-font: "Anton";
     --paragraph-font: "Source Sans Pro";
