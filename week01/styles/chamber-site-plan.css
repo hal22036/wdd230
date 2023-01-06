@@ -10,11 +10,38 @@
     --heading-font: "Rowdies";
     --title-font: "Anton";
     --paragraph-font: "Source Sans Pro";
+    
+    --headline-color-on-white: #48505B; 
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #6A544E;
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #48505B ;
+    --nav-link-color: white;
+    --nav-background-color: #7398bf;
+    --nav-hover-link-color: #48505b;
+    --nav-hover-background-color: #7398bf;
 }
 
 body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
     font-size: 18px;
+    text-align: center;
 }
+main {
+    font-size: 20px;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  header > h1 {
+    color: var(--headline-color-on-color);
+  }
 .colors td{
     width: 20%;
     height: 3em;
@@ -27,9 +54,11 @@ body {
     background-color: var(--secondary-color);
 }
 .accent1 {
+    color: white;
     background-color: var(--accent1-color);
 }
 .accent2 {
+    color: white;
     background-color: var(--accent2-color);
 }
 .accent3 {
@@ -47,12 +76,23 @@ table {
     text-indent: initial;
     border-spacing: 2px;
 }
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
 h1{
     font-family: var(--title-font);
 }
 h2 {
     color: var(--secondary-color);
     font-family: var(--heading-font);
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+    font-family: var(--paragraph-font)
 }
 h3 {
     font-family: var(--paragraph-font);
@@ -66,11 +106,106 @@ h3 {
     color: var(--primary-color)
 }
 h4 {
-    font: var(--paragraph-font);
+    font-family: var(--paragraph-font);
     color: var(--accent1-color);
     font-weight: bolder;
 }
 p {
     color: var(--accent2-color);
-    font: var(--paragraph-font)
+    font-family: var(--paragraph-font)
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+.sitemap {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+.sitemap > div {
+  text-align: center;
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
 }
