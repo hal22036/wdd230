@@ -38,8 +38,8 @@ header {
     text-align: center;
     color: var(--paragraph-color-on-color);
     background-color: var(--paragraph-background-color);
-  }
-  header > h1 {
+}
+header > h1 {
     color: var(--headline-color-on-color);
   }
 .colors td{
@@ -118,7 +118,6 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
-
 }
 hr {
   height: 3px;
