@@ -107,3 +107,47 @@ footer {
 .highlight {
     color: yellow;
 }
+
+
+
+/* ---------------(Responsive Menu)-------------------------------------------------------------------------- */
+
+.menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #f7f7f7;
+	z-index: 10;
+	overflow: hidden;
+	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
+}
+.menu li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 12rem;
+	padding: 1rem;
+	color: #72739f;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: background 0.5s ease-in-out;
+}
+
+li a.menu-item {
+	display: none;
+}
+
+li a.open {
+	display: flex;
+}
+
+.close::before {
+	content: "🐞";
+}
+
+.active {
+	background: #7cb4b5;
+}
