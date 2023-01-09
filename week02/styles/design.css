@@ -28,9 +28,8 @@ h2 {
 	color: navy;
 	text-align: left;
 }
-article { 
+.article { 
 	grid-column: 1/2;
-	row-gap: 20px;
 }
 .padding {
 	grid-column: 1/3;
@@ -43,12 +42,6 @@ article {
 div {
 	grid-column: 1/3;
 }
-div > h3 {
-	color: white;
-} 
-div > p {
-    color: white;
-}
 
 article p {
 	text-align: justify;
@@ -56,7 +49,7 @@ article p {
 
 .callout {
     padding: 15px;
-	color: #777;
+	color: white;
 	background-color: #702963;
 }
 
