@@ -129,7 +129,7 @@ menu {
     flex-direction: column;
     background: var(--primary-color);
 	position: fixed;
-	top: 20;
+	top: 7%;
 	right: 0;
 	list-style-type: none;
 	margin: 0;
@@ -156,10 +156,13 @@ li a.menu-item {
 }
 
 li a.open {
-    margin-right: 15px;
+    max-width: 100%;
+    padding-right: 20px;
+    margin-right: 0 auto;
 	display: flex;
     flex-direction: row-reverse;
 }
+
 
 
   /* -----------------------dark mode button -------------------- */
