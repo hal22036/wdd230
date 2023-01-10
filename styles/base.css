@@ -121,16 +121,22 @@ menu {
 	font-size: 3rem;
 	cursor: pointer;
 }
-.menu {
+#hamb-menu {
+    align-items: center;
+    text-align: center;
+    font-size: 140%;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
 	position: fixed;
-	top: 0;
+	top: 20;
 	right: 0;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background: #f7f7f7;
 	z-index: 10;
 	overflow: hidden;
+    border-radius: 15px;
 	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
 }
 .menu a {
@@ -154,11 +160,6 @@ li a.open {
 	display: flex;
     flex-direction: row-reverse;
 }
-#hamb-menu {
-    display: none;
-    justify-content: right;
-
-}
 
 
   /* -----------------------dark mode button -------------------- */
@@ -168,4 +169,7 @@ li a.open {
   }
   .darkA {
     color: #f7f7f7;
+  }
+  .darkMenu {
+    color: black;
   }
