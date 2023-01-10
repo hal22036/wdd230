@@ -111,7 +111,16 @@ footer {
 
 
 /* ---------------(Responsive Menu)-------------------------------------------------------------------------- */
-
+menu {
+    display: flex;
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
 .menu {
 	position: fixed;
 	top: 0;
@@ -124,13 +133,13 @@ footer {
 	overflow: hidden;
 	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
 }
-.menu li a {
+.menu a {
 	display: block;
 	text-decoration: none;
 	text-align: center;
 	width: 12rem;
 	padding: 1rem;
-	color: #72739f;
+	color: white;
 	position: relative;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	transition: background 0.5s ease-in-out;
@@ -141,13 +150,22 @@ li a.menu-item {
 }
 
 li a.open {
+    margin-right: 15px;
 	display: flex;
+    flex-direction: row-reverse;
+}
+#hamb-menu {
+    display: none;
+    justify-content: right;
+
 }
 
-.close::before {
-	content: "🐞";
-}
 
-.active {
-	background: #7cb4b5;
-}
+  /* -----------------------dark mode button -------------------- */
+  
+  .darkP {
+    color:#f7f7f7;
+  }
+  .darkA {
+    color: #f7f7f7;
+  }
