@@ -125,11 +125,10 @@ menu {
     align-items: center;
     text-align: center;
     font-size: 140%;
-    display: flex;
     flex-direction: column;
     background: var(--primary-color);
 	position: fixed;
-	top: 7%;
+	top: 9%;
 	right: 0;
 	list-style-type: none;
 	margin: 0;
@@ -150,7 +149,6 @@ menu {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	transition: background 0.5s ease-in-out;
 }
-
 li a.menu-item {
 	display: none;
 }
@@ -158,21 +156,9 @@ li a.menu-item {
 li a.open {
     max-width: 100%;
     padding-right: 20px;
-    margin-right: 0 auto;
 	display: flex;
-    flex-direction: row-reverse;
 }
+#menu-button {
+    max-width: 60px;
 
-
-
-  /* -----------------------dark mode button -------------------- */
-  
-  .darkP {
-    color:#f7f7f7;
-  }
-  .darkA {
-    color: #f7f7f7;
-  }
-  .darkMenu {
-    color: black;
-  }
+}
