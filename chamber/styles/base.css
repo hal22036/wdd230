@@ -6,8 +6,8 @@
     --paragraph-font: 'Noto Serif Toto', serif;
     --primary-color: #35425a;
     --secondary-color: #fec67e;
-    --accent1-color: #c75243;
-    --accent2-color: #91a4cc;
+    --accent1-color: #993A2E;
+    --accent2-color: #3F5788;
     --accent3-color: #f1ede4;
 }
 
@@ -113,12 +113,12 @@ header a{
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    color: var(--primary-color);
 }
 #banner > a {
-    color: var(--primary-color);
+    color: var(--accent3-color);
     font-weight: bolder;
     font-size: 12px;
+
 }
 a {
     color: var(--accent3-color);
@@ -229,7 +229,7 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 0.5rem;
-    color: var(--accent3-color);
+    color: white;
     background-color: var(--accent2-color);
 }
 .highlight {

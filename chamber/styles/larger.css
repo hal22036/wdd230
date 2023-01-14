@@ -40,12 +40,6 @@
         z-index: 4;
         margin-left: 10px;
     }
-    #banner {
-        align-items: center;    
-        max-width: 100%;
-        background: var(--accent2-color);
-        text-align: center;
-    }
     #banner > a {
         font-size: 20px;
     }
