@@ -10,7 +10,6 @@
     --accent2-color: #fdd8c5;
     --accent3-color: #51372a;
 }
-
 body {
     background: var(--primary-color);
     font-size: 16px;

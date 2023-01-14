@@ -118,3 +118,6 @@
     .highlight {
         color: yellow;
     }
+    .contact {
+         position: fixed;
+    }

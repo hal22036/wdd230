@@ -6,33 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="North Las Vegas Chamber of Commerce">
+    <meta name="author" content="Jeni Hales">
+    <meta property="og:url" content="https://hal22036.github.io/wdd230/">
+    <meta property="og:title" content="WDD 230 Course Activity Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTma9oTpGTzChS3FuxDrtgU3sWcoaC_8rgkdKIyawh5zVdCLXJ9PLsD3X2dXButvJvH">
     <title>North Las Vegas Chamber of Commerce</title>
 </head>
-<body>    
-    <nav></nav>
+<body>  
+    <nav>
+        <img id="menu-button" src="images/white-menu.png" alt="menu icon">
+        <div class="search-bar">
+            <label for="search">🔍</label>
+            <input type="search" id="search">
+        </div> 
+        <div class="user-cards"></div> 
+        <a href="" target="_blank">Member Login</a>
+      <a href="" target="_blank">Join Us</a> 
+        <svg id='darkModeIcon' width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 9.199h-.98c-.553 0-1 .359-1 .801 0 .441.447.799 1 .799H19c.552 0 1-.357 1-.799 0-.441-.449-.801-1-.801ZM10 4.5A5.483 5.483 0 0 0 4.5 10c0 3.051 2.449 5.5 5.5 5.5 3.05 0 5.5-2.449 5.5-5.5S13.049 4.5 10 4.5Zm0 9.5c-2.211 0-4-1.791-4-4 0-2.211 1.789-4 4-4v8Zm-7-4c0-.441-.449-.801-1-.801H1c-.553 0-1 .359-1 .801 0 .441.447.799 1 .799h1c.551 0 1-.358 1-.799Zm7-7c.441 0 .799-.447.799-1V1c0-.553-.358-1-.799-1-.442 0-.801.447-.801 1v1c0 .553.359 1 .801 1Zm0 14c-.442 0-.801.447-.801 1v1c0 .553.359 1 .801 1 .441 0 .799-.447.799-1v-1c0-.553-.358-1-.799-1Zm7.365-13.234c.391-.391.454-.961.142-1.273-.312-.312-.883-.248-1.272.143l-.7.699c-.391.391-.454.961-.142 1.273.312.312.883.248 1.273-.143l.699-.699ZM3.334 15.533l-.7.701c-.391.391-.454.959-.142 1.271.312.312.883.25 1.272-.141l.7-.699c.391-.391.454-.961.142-1.274-.312-.313-.883-.247-1.272.142Zm.431-12.898c-.39-.391-.961-.455-1.273-.143-.312.312-.248.883.141 1.274l.7.699c.391.391.96.455 1.272.143.312-.312.249-.883-.141-1.273l-.699-.7Zm11.769 14.031.7.699c.391.391.96.453 1.272.143.312-.312.249-.883-.142-1.273l-.699-.699c-.391-.391-.961-.455-1.274-.143-.313.312-.248.882.143 1.273Z" fill="var(--darkText)" fill-rule="nonzero" />
+        </svg>   
+    </nav>
+    <ul id="hamb-menu">
+        <li title="search">
+          <a href="#" class="menu-item">🔍 Search</a>
+        </li>
+        <li title="discover">
+          <a href="#" class="menu-item">📎 Discover</a>
+        </li>
+        <li title="directory">
+          <a href="#" class="menu-item">📨 Directory</a>
+        </li>
+        <li title="join">
+            <a href="#" class="menu-item">✅ Join</a>
+          </li>
+    </ul>
     <header>
-        <h1>North Las Vegas Chamber of Commerce</h1>
+        <img id='logo' src="images/hales-logo.png" alt="logo">
+        <a class="button" href="" target="_blank">Lorem ipsum</a>
+        <a class="button" href="" target="_blank">Lorem ipsum</a> 
     </header>
-    <main>
-        <img id="hero-img" src="">
-        <a href="">Call to action link</a>
-        <section id="current-events">
-            <h3>Current Events</h3>
+    <div id="banner"><a href="" target="_blank">CLICK FOR BUSINESS UPDATES</a></div>
+        <div id="hero">
+            <img id="hero-img" src="images/NV-banner.jpg"  alt="Hero Image">
+            <div id="home-title">
+                <h1>North Las Vegas<br/>Chamber of Commerce</h1></div>
+                    <a href="#" target="_blank"><button id="join">Join Now</button></a>
+                    <a href="#" target="_blank"><button id="login" href="" target="_blank">Member Login</button></a>       
+            </div>
+    <main id="main-grid"> 
+        <section id="events" class="card">
+        <a href="" target="_blank"></a>        
+        <h3>Events</h3>
+        <ul>
+          <li> 🎡 Quarterly Carnival</li>
+          <li> 🚚 Food Truck Festival</li>
+          <li> 🏊🏽 Public Swim Event</li>
+          
+        </ul>
         </section>
-        <section id="weather">
-            <h3>Weather Card</h3>
+        <section id="spotlights" class="card">
+          <h3>Spotlights</h3>
+          <ul>
+            <li> 🔦 Business Spotlights</li>
+            <li> 🪧 Advertisements</li>
+            <li> 🏆 Top Business of the Week</li>            
+          </ul>
         </section>
-        <section id="spotlights">
+        <section id="weather" class="card">
+          <h3>Weather</h3>
+          <p id="weather">Temperature: ⛅️</p>
+        </section>
+        <section id="resources" class="card">
+            <h3>Resources</h3>
             <ul>
-                <li>1-3 companies spotlights such as advertisements</li>
-            </ul>
+                <li> COVID-19 KITS</li>
+                <li> Ways to Advertise</li>           
+              </ul>
+          </section>
+        <section class="current-events">
+            <a href="" target="_blank">
+            <img class="card-img"  src="images/ride.jpg" alt="Events photo"></a>
+            <h2>Events</h2>
+        </section>
+        <section class="weather-card">
+            <a href="" target="_blank">
+            <img class="card-img" src="images/rain.jpg" alt="weather"></a>
+            <h2>Weather</h2>
+        </section>
+        <section class="spotlights">
+            <a href="" target="_blank">
+            <img class="card-img" src="images/nlv-mountain.jpg" alt="spotlights"></a>
+            <h2>Spotlights</h2>
+        </section>
+        <section class="resource-card">
+            <a href="" target="_blank">
+            <img class="card-img" src="images/eats.jpg" alt="resources"></a>
+            <h2>Resources</h2>
+        </section>
+        <section id="paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, perferendis inventore quibusdam 
+                odio sequi, ad hic libero culpa vero nam consequuntur velit quisquam repudiandae expedita a at 
+                veritatis sed voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur 
+                officia animi vero accusamus architecto quasi pariatur ut deleniti laborum tempora aspernatur 
+                eius, soluta obcaecati repellendus cum molestiae assumenda incidunt non.</p>
         </section>
     </main>
     <footer>
-        <p class="contact">Contact Information</p>
-        <p>Jeni Hales WDD 230 project</p>
-        <p>Last modification date</p>
+        <p id="copyright"></p>
+        <p class="highlight" id="lastModified"><mark>Last Modification:</mark> </p>
+        <div id="social">     
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+              </a>
+            <a href="" target="_blank">
+                <img src="images/contact-icon.png" alt="fb icon">
+              </a>
+        </div>
     </footer>
-    <script src=""></script>
+    <script src="scripts/chamber-dates.js"></script>
+    <script src="scripts/chamber-menu.js"></script>
+    <script src="scripts/chamber-mode.js"></script>
 </body>
 </html>

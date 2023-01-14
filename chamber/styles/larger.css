@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://coolors.co/35425a-fec67e-c75243-91a4cc-f1ede4');
+
+@media only screen and (min-width: 600px){
+
+    body {
+        width: 100%;
+    }
+    nav {
+        max-width: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: right;
+        padding: 1rem;
+        background-color: var(--accent1-color);
+    }
+    nav a {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    #search {
+        padding-right: 60px;
+    }
+    #menu-button {
+        padding-left: 40px;
+    }
+    header {
+        height: 80px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        background-color: var(--primary-color);
+        color: var(--accent2-color);
+    }
+    #logo {
+        width: 100px;
+        z-index: 4;
+        margin-left: 10px;
+    }
+    #banner {
+        align-items: center;    
+        max-width: 100%;
+        background: var(--accent2-color);
+        text-align: center;
+    }
+    #banner > a {
+        font-size: 20px;
+    }
+    #home-title {
+        font-size: 30px;
+        top: 20%; left: 20%; right: 20%;
+        height: 50%;
+    }
+    #join {
+        font-size: 20px;
+        top: 58%; left: 44%;
+    }
+    #login {
+        font-size: 20px;
+        top: 58%; left: 50%;
+    }
+    #main-grid {    
+        max-width: 97%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 50px;
+        align-items: center;
+        justify-content: center;        
+        padding-left: 15px;
+    }
+    #events {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #spotlights {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #weather {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    #resources {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .current-events {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    } 
+    .weather-card {
+        grid-column: 3/4; 
+        grid-row: 1/2;
+    }
+    .spotlights {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+    }
+    .resource-card {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    #paragraph {
+        grid-column: 1/5;
+        grid-row: 3/4;
+        padding-left: 25px;
+    }
+    p {
+        font-size: 20px;
+    }
+    li {
+        font-size: 20px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer > p {
+        padding-right: 35px;
+    }
+}
