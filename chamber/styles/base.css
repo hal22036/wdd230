@@ -3,7 +3,7 @@
 
 :root {
     --heading-font: 'Lato';
-    --paragraph-font: 'Noto Serif Toto';
+    --body-font: 'Noto' Serif, Toto;
     --primary-color: #35425a;
     --secondary-color: #fec67e;
     --accent1-color: #993A2E;
@@ -135,7 +135,7 @@ header a{
 }
 a {
     color: var(--accent3-color);
-    font: var(--paragraph-font);
+    font-family: var(--body-font);
 }
 a:link {
     text-decoration: none;
