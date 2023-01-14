@@ -46,6 +46,7 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: var(--accent1-color);
+    z-index: 1;
 }
 nav a {
     padding: 2px;
