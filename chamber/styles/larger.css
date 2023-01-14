@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital,wght@1,500&display=swap');
-@import url('https://coolors.co/35425a-fec67e-c75243-91a4cc-f1ede4');
-
 @media only screen and (min-width: 600px){
 
     body {
@@ -45,12 +42,12 @@
     }
     #home-title {
         font-size: 30px;
-        top: 20%; left: 20%; right: 20%;
+        top: 20%; left: 30%; right: 30%;
         height: 50%;
     }
     #join {
         font-size: 20px;
-        top: 58%; left: 44%;
+        top: 58%; left: 44%; 
     }
     #login {
         font-size: 20px;

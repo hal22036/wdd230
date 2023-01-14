@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif+Toto:wght@600&display=swap');
-@import url('https://coolors.co/35425a-fec67e-c75243-91a4cc-f1ede4');
+@import url('https://coolors.co/35425a-fec67e-993a2e-3f5788-f1ede4');
 
 :root {
     --heading-font: 'Lato', sans-serif;
@@ -247,18 +247,11 @@ footer {
 menu {
     display: flex;
 }
-#mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-}
 #hamb-menu {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background: var(--primary-color);
+    background: var(--accent2-color);
 	position: fixed;
 	top: 9%;
 	right: 0;
@@ -279,7 +272,6 @@ menu {
 	color: white;
 	position: relative;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	transition: background 0.5s ease-in-out;
 }
 li a.menu-item {
 	display: none;    
