@@ -41,17 +41,17 @@
         font-size: 20px;
     }
     #home-title {
-        font-size: 30px;
-        top: 20%; left: 30%; right: 30%;
-        height: 50%;
+        font-size: 28px;
+        top: 32%; left: 10%; right: 10%;
+        height: 10%;
     }
     #join {
-        font-size: 20px;
-        top: 58%; left: 44%; 
+        font-size: 28px;
+        top: 48%; left: 44%; 
     }
     #login {
-        font-size: 20px;
-        top: 58%; left: 50%;
+        font-size: 28px;
+        top: 48%; left: 50%;
     }
     #main-grid {    
         max-width: 97%;

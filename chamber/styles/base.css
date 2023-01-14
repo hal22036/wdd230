@@ -2,8 +2,8 @@
 @import url('https://coolors.co/35425a-fec67e-993a2e-3f5788-f1ede4');
 
 :root {
-    --heading-font: 'Lato', sans-serif;
-    --paragraph-font: 'Noto Serif Toto', serif;
+    --heading-font: 'Lato';
+    --paragraph-font: 'Noto Serif Toto';
     --primary-color: #35425a;
     --secondary-color: #fec67e;
     --accent1-color: #993A2E;
@@ -76,14 +76,13 @@ header a{
     justify-content: center;
     align-items: center;
 }
-
 #hero-img {
     width: 100%;
 }
 #home-title{
     font-size: 12px;
     position: absolute; 
-    top: 5%; left: 5%; right: 5%; 
+    top: 25%; left: 10%; right: 10%;
     background-color: #000;
     color: #fff;
     opacity: .5;
@@ -94,17 +93,27 @@ header a{
     opacity: 90%;
     padding: 5px;
     font-family: var(--heading-font);
-    position: absolute;
-    top: 80%; left: 26%;   
-    font-size: 14px;
+    position: absolute; top: 35%; left: 33%;
+    background-color: white;
+    color: black;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 14px;  
+    text-decoration: none;
+     
 }
 #login {
     opacity: 90%;
     padding: 5px;
     font-family: var(--heading-font);
-    position: absolute; 
-    top: 80%; left: 52%;   
-    font-size: 14px;
+    position: absolute; top: 35%; left: 51%;
+    background-color: white;
+    color: black;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 14px;  
+    text-decoration: none;
+      
 }
 #banner {
     align-items: center;    
