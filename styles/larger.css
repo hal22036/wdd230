@@ -8,16 +8,17 @@
         justify-content: right;
     }
     #hero-title {
-        position:absolute;
-        margin-top: -120px;
-        margin-left: 15px;
+        position:absolute; 
     }
     #hero-title p {
-        font-size: 4.25rem;
+        font-size: 2.75rem;
         padding: .5rem;
     }
     main {
-        font-size: 20px;
+        font-size: 20px;  
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
     #grid {
         max-width: 1600px;
@@ -52,4 +53,18 @@
     iframe {
         width: 60%;
     }
+}
+
+@media only screen and (min-width: 959px){
+
+    /* #hero-title p {
+        font-size: 1.75rem;
+        padding: .25rem;
+    }
+    #hero-title {
+        position: absolute; top: 360px; left: 30px;
+    }
+    main {
+        font-size: 16px;
+    } */
 }
