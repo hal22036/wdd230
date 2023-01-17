@@ -19,28 +19,6 @@ button.addEventListener('click', () => {
     }
 });
 
-// button.addEventListener('click', () => {
-//     if(input.value != ''){
-//       const li =document.createElement('li');
-//       const deleteButton = document.createElement('button');  
-//       li.textContent = input.value;
-//       deleteButton.textContent = '❌';
-//       li.append(deleteButton);
-//       list.append(li);
-//       deleteButton.addEventListener('click', () => {
-//         list.removeChild(li);
-//         input.focus();
-//     });
-//     }
-//     else {
-//         input.focus();
-//         alert('Input is Empty')
-//     };
-// });
-
-// input.focus();
-// input.value = '';
-
 function displayList(item) {
     let li = document.createElement('li');
     let deletebutton = document.createElement('button');
@@ -49,7 +27,7 @@ function displayList(item) {
     deletebutton.classList.add('delete');
     li.append(deletebutton);
     list.append(li);
-    deletebutton.addEventListener('click', function () {
+    deletebutton.addEventListener('click', () => {
         list.removeChild(li);
         deleteChapter(li.textContent);
         input.focus ();
