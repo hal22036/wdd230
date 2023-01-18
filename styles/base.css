@@ -37,7 +37,7 @@ a {
     text-align: center;
 }
 main {
-    max-width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
     font-size: 14px;
     position: relative;
@@ -53,6 +53,9 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+picture img {
+    width: 100%; height: auto;
+}
 .hero img {
     position: relative;
     width: 100%;
@@ -61,7 +64,7 @@ main {
     align-items: center;
 }
 #hero-title {
-    position: absolute; top: 23vh; left: 6vw;
+    position: absolute; top: 5%; left: 10%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: .5rem;

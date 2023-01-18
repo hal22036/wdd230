@@ -11,15 +11,11 @@
         position: relative;
         width: 100%;
     }
-    #hero-title {
-        top: 8vh; 
-    }
     #hero-title p {
         font-size: 3vh;
         padding: 1rem;
     }
     main {
-        max-width: 1600px;
         font-size: 20px;  
         
     }
