@@ -8,7 +8,8 @@
         justify-content: right;
     }
     #hero-img {
-        max-width: 100%;
+        position: relative;
+        width: 100%;
     }
     #hero-title {
         top: 8vh; 
@@ -18,10 +19,9 @@
         padding: .2rem;
     }
     main {
+        max-width: 1600px;
         font-size: 20px;  
-        position: relative;
-        display: flex;
-        justify-content: center;
+        
     }
     #grid {
         max-width: 1600px;

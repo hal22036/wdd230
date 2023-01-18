@@ -40,6 +40,11 @@ main {
     max-width: 100%;
     margin: 0 auto;
     font-size: 14px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
 #grid {
     max-width: 100%;

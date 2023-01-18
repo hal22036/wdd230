@@ -8,7 +8,6 @@
     }
     nav {
         max-width: 100%;
-        font-size: 20px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: right;
@@ -17,7 +16,8 @@
     }
     nav a {
         padding-left: 40px;
-        padding-right: 20px;
+        padding-right: 20px;        
+        font-size: 20px;
     }
     #menu-button {
         padding-left: 40px;
@@ -32,26 +32,31 @@
         color: var(--accent2-color);
     }
     #logo {
-        width: 100px;
-        z-index: 4;
+        width: 8%;
         margin-left: 10px;
+    }
+    .h-link {
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 20px;
     }
     #banner > a {
         font-size: 20px;
     }
     #home-title {
-        left: 3vh;
+        top: 32vh; right: 50vh;
+        margin-left: 30vh;
+        padding: 1rem;
     }
     #join {
         font-size: 28px;
-        top: 48%; left: 44%; 
+        top: 45vh; left: 43vw; 
     }
     #login {
         font-size: 28px;
-        top: 48%; left: 50%;
+        top: 45vh; left: 50vw;
     }
     #main-grid {    
-        max-width: 97%;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 50px;
         align-items: center;
