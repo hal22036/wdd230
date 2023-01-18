@@ -116,13 +116,13 @@ main {
     text-decoration: none;      
 }
 #logo-container {
-    z-index: 1;
     display: flex;
 }
 
 #logo {
     margin: 0;
     width: 12%;
+    z-index: 1;
 }
 .h-link {
     margin: 0 auto;
@@ -306,5 +306,20 @@ li a.open {
 }
 #menu-button {
     max-width: 60px;
+
+}
+
+/* --------DISCOVER PAGE----------- */
+
+.sidebar {
+    background-color: var(--accent1-color);
+    color: white;
+}
+.page {
+    text-align: center;
+    background-color: var(--secondary-color);
+    
+}
+.align {
 
 }

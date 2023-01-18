@@ -114,4 +114,21 @@
     footer > p {
         padding-right: 35px;
     }
+    
+/* --------DISCOVER PAGE----------- */
+
+    .sidebar {
+        position: fixed;
+        width: 20vw;
+    }    
+    .page {
+        margin-left: 20vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+    }
+    .align {
+    }
+    img.hover {
+
+    }
 }
