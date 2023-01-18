@@ -40,9 +40,7 @@
         font-size: 20px;
     }
     #home-title {
-        font-size: 28px;
-        top: 32%; left: 10%; right: 10%;
-        height: 10%;
+        left: 3vh;
     }
     #join {
         font-size: 28px;

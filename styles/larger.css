@@ -7,6 +7,9 @@
         flex-direction: row-reverse;
         justify-content: right;
     }
+    #hero-img {
+        max-width: 100%;
+    }
     #hero-title {
         top: 4vh; left: 2vh;
     }
@@ -49,21 +52,4 @@
     .contact {
          position: fixed;
     }
-    iframe {
-        width: 60%;
-    }
 }
-
-/* @media only screen and (min-width: 959px){ */
-
-    /* #hero-title p {
-        font-size: 1.75rem;
-        padding: .25rem;
-    }
-    #hero-title {
-        position: absolute; top: 360px; left: 30px;
-    }
-    main {
-        font-size: 16px;
-    } */
-/* } */
