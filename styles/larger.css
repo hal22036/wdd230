@@ -11,9 +11,10 @@
         max-width: 100%;
     }
     #hero-title {
-        top: 4vh; left: 2vh;
+        top: 8vh; 
     }
     #hero-title p {
+        font-size: 3vh;
         padding: .2rem;
     }
     main {
