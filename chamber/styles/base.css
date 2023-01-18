@@ -70,29 +70,28 @@ header a{
     max-width: 15%;
     z-index: 1;
 }
-#hero{
+#hero-img {
+    width: 100%;
     margin: 0;
     padding: 0;
     position: relative;
-    width: 100%;
     height: 100%;
     z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#hero-img {
-    width: 100%;
-}
 #home-title{
-    font-size: 12px;
     position: absolute; 
-    top: 25%; left: 10%; right: 10%;
+    top: 1vh; left: 1vh; right: 1vh;
     background-color: #000;
     color: #fff;
     opacity: .5;
     font-family: var(--heading-font);
     text-align: center;
+}
+#home-title h1 {
+    font-size: 4vw;
 }
 #join {
     opacity: 90%;
