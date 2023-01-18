@@ -16,7 +16,7 @@
     }
     #hero-title p {
         font-size: 3vh;
-        padding: .2rem;
+        padding: 1rem;
     }
     main {
         max-width: 1600px;
@@ -53,4 +53,8 @@
     .contact {
          position: fixed;
     }
+    iframe {
+        width: 60%;
+    }
 }
+
