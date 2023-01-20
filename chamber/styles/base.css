@@ -121,14 +121,12 @@ main {
 #logo-container p{
     color: white;
     margin: 0 auto;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 5px;
 }
 #logo {
-    margin: 0;
-    width: 12%;
+    width: 12%; height: auto;
     z-index: 1;    
-    position: sticky;
 }
 #banner {
     max-width: 100%;
@@ -326,10 +324,10 @@ li a.open {
 .sidebar p {
     font-size: 14px;
 }
-.section1 {
+.statistics {
     margin-top: 20px;
 }
-.section4 {
+.visitors {
     font-size: 26px;
 }
 .page {
