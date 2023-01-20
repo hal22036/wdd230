@@ -118,15 +118,17 @@ main {
 #logo-container {
     display: flex;
 }
-
+#logo-container p{
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
 #logo {
     margin: 0;
     width: 12%;
-    z-index: 1;
-}
-.h-link {
-    margin: 0 auto;
-    padding: 20px;
+    z-index: 1;    
+    position: sticky;
 }
 #banner {
     max-width: 100%;
@@ -311,15 +313,39 @@ li a.open {
 
 /* --------DISCOVER PAGE----------- */
 
+.discover-grid {
+    background-color: var(--secondary-color);
+}
 .sidebar {
+    padding: 10px;
+    text-align: center;
     background-color: var(--accent1-color);
     color: white;
+    font-size: 18px;
+}   
+.sidebar p {
+    font-size: 14px;
+}
+.section1 {
+    margin-top: 20px;
+}
+.section4 {
+    font-size: 26px;
 }
 .page {
     text-align: center;
-    background-color: var(--secondary-color);
-    
 }
 .align {
-
+    font-size: 24px;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+    margin: 0 auto;
+    width: 100%;
+}
+.events-list {
+    list-style-type: square;
+    padding: 30px;
 }
