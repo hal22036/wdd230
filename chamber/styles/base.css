@@ -58,63 +58,6 @@ header {
 header a{
     margin-left: auto;
     margin-right: auto;
-
-}
-main {
-    min-width: 360px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-#hero-img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    height: 100%;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#home-title{
-    position: absolute; 
-    top: 30vh; right: 15vh;
-    background-color: #000;
-    color: #fff;
-    font-family: var(--heading-font);
-    text-align: center;
-	padding: .5rem;
-	opacity: 0.5;
-}
-#home-title h1 {
-    font-size: 2.5vw;
-}
-#join {
-    opacity: 90%;
-    padding: 5px;
-    font-family: var(--heading-font);
-    position: absolute; top: 36vh; left: 35vw;
-    background-color: white;
-    color: black;
-    text-align: center; 
-    font-weight: bold;
-    font-size: 14px;  
-    text-decoration: none;
-     
-}
-#login {
-    opacity: 90%;
-    padding: 5px;
-    font-family: var(--heading-font);
-    position: absolute; top: 36vh; left: 35vh;
-    background-color: white;
-    color: black;
-    text-align: center; 
-    font-weight: bold;
-    font-size: 14px;  
-    text-decoration: none;      
 }
 #logo-container {
     display: flex;
@@ -139,8 +82,7 @@ main {
 #banner > a {
     color: var(--accent3-color);
     font-weight: bolder;
-    font-size: 12px;
-
+    font-size: 2vw;
 }
 a {
     color: var(--accent3-color);
@@ -149,21 +91,60 @@ a {
 a:link {
     text-decoration: none;
 }
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 2vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #main-grid {  
-    justify-content: center;  
-    width: 96%;
-    align-items: center;
-    margin: 0;
+    max-width: 96%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    padding-left: 5px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+#hero-img {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+#home-title{
+    position: absolute; top: 8%; left: 10%;
+    background-color: #000;
+    color: #fff;
+    font-family: var(--heading-font);
+    text-align: center;
+	padding: .5rem;
+	opacity: 0.65;
+    padding: 5px;
+}
+#home-title p {
+    font-weight: 600;
+    font-size: 4vw;
+}
+#join,
+#login {
+    padding: 5px;
+    position: absolute; left: 30%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3vw;
+}
+#login {
+    left: 50%;
 }
 .card {
     margin: 1rem;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #7e72615f;
-    width: 90%;
+    width: 100%;
     height: 80%;
     margin-left: 40px;
 }
@@ -216,7 +197,7 @@ a:link {
     padding-left: 5px;
 }
 p {
-    font-size: 12px;
+    font-size: 3vw;
 }
 h1 {
     margin: auto;
@@ -241,7 +222,7 @@ h3 {
 li {
     list-style-type: none;
     text-align: center;
-    font-size: 12px;
+    font-size: 3vw;
     padding: 0;
     margin-left: -5px;
 }

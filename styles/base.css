@@ -44,7 +44,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
 }
 #grid {
     max-width: 100%;
