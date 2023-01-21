@@ -39,6 +39,7 @@ nav {
     justify-content: center;
     background-color: var(--accent1-color);
     z-index: 1;
+    border-bottom: solid var(--primary-color);
 }
 nav a {
     font-size: 3vw;
@@ -311,10 +312,10 @@ li a.open {
 
 /* --------DISCOVER PAGE----------- */
 
-.discover-grid {
+#discover-grid {
     background-color: var(--secondary-color);
 }
-.sidebar {
+#sidebar {
     padding: 10px;
     text-align: center;
     background-color: var(--accent1-color);
@@ -327,14 +328,40 @@ li a.open {
 .statistics {
     margin-top: 20px;
 }
+.population p{
+    font-weight: bolder;
+}
+.pie-chart {
+    width: 60%;
+}
+#events {
+    padding: 0;
+    margin: 0 auto;
+}
 .visitors {
+    margin-top: 30px;
+    margin-bottom:20px;
     font-size: 26px;
 }
 .page {
     text-align: center;
+    font-size: 4vw;
+    font-weight: 800;
+    text-shadow: 3px 5px var(--accent3-color);
 }
 .align {
-    font-size: 24px;
+    font-size: 4vw;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-shadow: 1px 1px var(--accent3-color);
+}
+.caption1,
+.caption2,
+.caption3,
+.caption4 {
+    margin: 0 auto;
+    margin-top: -10px;
+    font-size: 3vw;
 }
 .img1,
 .img2,
@@ -342,8 +369,14 @@ li a.open {
 .img4 {
     margin: 0 auto;
     width: 100%;
+    background: black;
+    animation: fade 15s;
 }
 .events-list {
     list-style-type: square;
     padding: 30px;
 }
+.source {
+    font-size: 12px;
+}
+

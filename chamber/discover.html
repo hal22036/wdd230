@@ -45,51 +45,66 @@
       </div>
     </header>                 
     <main class="discover-main">
-      <div class="discover-grid">
-        <div class="sidebar">
+      <div id="discover-grid">
+        <div id="sidebar">
+          <h1 class="visitors">Days Since Last Visit:</h1>
           <aside>
-            <section class="statistics"></section>
-              <h1>STATISTICS</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, aut.</p>
-            <section class="section2">Demographics</section>
-              <p>Lorem ipsum dolor sit amet.</p>
-            <section class="events"></section>
-              <h1>EVENTS</h1>
+            <section id="events">
+              <h2>UPCOMING EVENTS</h2>
               <ul>
                 <li class="events-list">Quarterly Carnival: Craig Ranch Park
-                  <li>Saturday March 25th 11am - 11pm</li>
-                </li>
+                  <li>Saturday March 25th 11am - 11pm</li>                
                 <li class="events-list">Food Truck Festival: Las Vegas Motor Speedway</li>
                   <li>Friday April 7th 11am - 9pm</li>
                 <li class="events-list">Public Swim @ Prentiss Walker Pool</li>
                   <li>1509 June St (702-633-2550)</li>
                   <li>Fridays through Sundays 12:00pm - 6:00pm</li>  
               </ul>
-            <section class="visitors"></section>
+            </section>
+            <section class="statistics">             
+              <h2>STATISTICS</h2>
+                <p>North Las Vegas Population: 279,292</p>
+                <p>City Area Coverage: 97.94 sq miles</p>
+                <p>4th Largest City in the State of Nevada</p>
+                <p>County: Clark</p>
+            </section>
+            <section class="population">
+              <h2>North Las Vegas Population by Race</h2>
+              <img class='pie-chart' src="images/pie-only.webp" alt="population pie chart" loading="lazy">
+              <p>White American 43%</p>
+              <p>Black or African American 15.5%</p>
+              <p>Hispanic or Latino 34.2%</p>
+              <p>Asian 5.6%</p>
+              <p>Other 1.7%</p>
+              
+              <p class="source">Source: US Census population estimates(2019)</p>
+            </section> 
+            
             </aside>
         </div>
-        <div class="page">
-          <div class="align">North Las Vegas, NV</div>
-            <section class="caption1">North Las Vegas Aliante Nature Discovery Park</section>
+        <div class="page">          
+          <div class="align">North Las Vegas, NV Chamber of Commerce</div>
+              <picture>                               
+                <img class="img1" src="images/nlv-adp.webp" alt="discovery park" loading="lazy">
+              </picture>
+            <h3 class="caption1">North Las Vegas Aliante Nature Discovery Park</h3>             
               <picture>                
-                <img class="img1" src="images/nlv-adp.jpg" alt="discovery park">
+                <img class="img2" src="images/nlv-homes.webp" alt="Aerial view" loading="lazy">
               </picture>
-            <section class="caption2">caption2</section>
-            <picture>
-                <img class="img2" src="images/nlv-homes.jpg" alt="">
+            <h3 class="caption2">North Las Vegas Aerial View</h3>            
+              <picture>                
+                <img class="img3" src="images/events.webp" alt="Local Events" loading="lazy">
               </picture>
-            <section class="caption3">caption3</section>
-            <picture>
-                <img class="img3" src="images/events.jpg" alt="">
+            <h3 class="caption3">Local Events</h3>            
+              <picture>                
+                <img class="img4" src="images/cannery.webp" alt="cannery hotel and casino" loading="lazy">
               </picture>
-            <section class="caption4">caption4</section>
-              <picture>
-                <img class="img4" src="images/cannery.jpg" alt="">
-              </picture>
+            <h3 class="caption4">Cannery Hotel and Casino</h3>
           </div>
+          
         </div> 
     </main>
-    <footer class="footer-discover">
+    <footer class="footer-discover" id="footer">
         <p id="copyright"></p>
         <p class="highlight" id="lastModified"><mark>Last Modification:</mark> </p>
         <div id="social">     
@@ -110,5 +125,7 @@
     <script src="scripts/chamber-dates.js"></script>
     <script src="scripts/chamber-menu.js"></script>
     <script src="scripts/chamber-visits.js"></script>
+    <script src="scripts/chamber-sidebar.js"></script>
+    <script src="scripts/chamber-textChange.js"></script>
 </body>
 </html>
