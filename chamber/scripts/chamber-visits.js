@@ -22,5 +22,3 @@ if (end !== null) {
 }
 
 localStorage.setItem('last-visit', start);
-
-// console.log(getNumberOfDays("1/20/2023", "1/1/2023"))
