@@ -151,9 +151,7 @@ main {
     margin: 1rem;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #7e72615f;
-    width: 100%;
     height: auto;
-    margin-left: 40px;
 }
 .card > p {
     text-align: center;
