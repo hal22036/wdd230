@@ -9,7 +9,7 @@ menubutton.addEventListener("click", () => {
 		menubutton.src = 'images/x.png';
 		closeMenu = false;
 	} else {
-		menubutton.src = "images/white-menu.png";
+		menubutton.src = "images/white-hamb.png";
 		closeMenu = true;
 	}
 	menuitems.forEach((item) => item.classList.toggle("open"));

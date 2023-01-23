@@ -12,8 +12,6 @@
 }
 body {
     background: var(--accent3-color);
-    font-size: 14px;
-    line-height: 1.5;
     margin: 0;
     font-family:var(--heading-font);
 }
@@ -51,13 +49,13 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 3vw;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
-header a{
-    margin-left: auto;
-    margin-right: auto;
+#today,
+#time {
+    
 }
 #logo-container {
     display: flex;
@@ -66,10 +64,11 @@ header a{
     color: white;
     margin: 0 auto;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 3vw;
 }
 #logo {
-    width: 12%; height: auto;
+    max-width: 12%; height: auto;
     z-index: 1;    
 }
 #banner {
@@ -101,12 +100,12 @@ main {
     justify-content: center;
 }
 #main-grid {  
-    max-width: 96%;
+    max-width: 80%;
     margin: 0 auto;
+    position: relative;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    
 }
 #hero-img {
     position: relative;
@@ -114,7 +113,7 @@ main {
     margin: 0 auto;
 }
 #home-title{
-    position: absolute; top: 8%; left: 10%;
+    position: absolute; top: 3%; left: 10%;
     background-color: #000;
     color: #fff;
     font-family: var(--heading-font);
@@ -141,7 +140,7 @@ main {
     left: 50%;
 }
 .card-img {
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     border: .8vw solid var(--accent2-color);
     margin-top: 30px;
@@ -157,44 +156,35 @@ main {
     text-align: center;
 }
 #events {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-#spotlights {
-    grid-column: 2/3;
     grid-row: 2/3;
 }
-#weather {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-#resources {
-    grid-column: 2/3;
+#spotlights {
     grid-row: 4/5;
 }
+#weather {
+    grid-row: 6/7;
+}
+#resources {
+    grid-row: 8/9;
+}
 .current-events {
-    grid-column: 1/2;
     grid-row: 1/2;
 } 
 .weather-card {
-    grid-column: 1/2; 
-    grid-row: 3/4;
+    grid-row: 5/6;
 }
  .spotlights {
-    grid-column: 1/2;
-    grid-row: 2/3;    
+    grid-row: 3/4;    
 }
 .resource-card {
-    grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 7/8;
 }
 #paragraph {
-    grid-column: 1/3;
-    grid-row: 5/6;
+    grid-row: 9/10;
     padding-left: 5px;
-}
+} 
 p {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 h1 {
     margin: auto;
@@ -215,11 +205,15 @@ h3 {
     color: var(--primary-color);
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
+    font-size: 5vw;
+}
+.index-list {
+    display: inline;
 }
 li {
     list-style-type: none;
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
     padding: 0;
     margin-left: -5px;
 }
@@ -301,7 +295,7 @@ li a.open {
     font-size: 18px;
 }   
 .sidebar p {
-    font-size: 14px;
+    font-size: 3vw;
 }
 .statistics {
     margin-top: 20px;
@@ -312,7 +306,7 @@ li a.open {
 .pie-chart {
     width: 60%;
 }
-#events {
+#d-events {
     padding: 0;
     margin: 0 auto;
 }
