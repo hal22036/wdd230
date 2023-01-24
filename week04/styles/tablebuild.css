@@ -1,0 +1,50 @@
+:root{
+    --back: rgb(226, 195, 201);
+    --back2: rgb(200, 11, 200);
+    --forelight: rgb(87, 2, 87);
+    --border: pink;
+    --shadow: rgb(69, 69, 69);
+    --zebra: rgb(253, 238, 241);
+    --font: white;
+}
+body{
+    text-align: center;
+}
+table{
+    margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 7px var(--shadow);
+	border-collapse: collapse;
+}
+caption {
+    caption-side: bottom;
+    margin: 10px auto;
+}
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+th, td {
+    border: 1px solid var(--back);
+	padding: 7px 15px;
+    color: var(--font);
+}
+th:first-child {
+    background: var(--back);
+}
+td {
+    color: black;
+    font-weight: 700;
+}
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
