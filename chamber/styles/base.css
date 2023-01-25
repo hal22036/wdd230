@@ -41,7 +41,7 @@ nav {
     border-bottom: solid var(--primary-color);
 }
 nav a {
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 2px;
     color: white;
 }
@@ -61,7 +61,7 @@ header {
     color: white;
     margin: 0 auto;
     padding: 10px;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 #logo {
     max-width: 10%; height: auto;
@@ -77,19 +77,12 @@ header {
 #banner > a {
     color: var(--accent3-color);
     font-weight: bolder;
-    font-size: 2vw;
-}
-a {
-    color: var(--accent3-color);
-    font-family: var(--body-font);
-}
-a:link {
-    text-decoration: none;
+    font-size: 3.5vw;
 }
 main {
     max-width: 100%;
     margin: 0 auto;
-    font-size: 2vw;
+    font-size: 3vw;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -120,17 +113,17 @@ main {
 }
 #home-title p {
     font-weight: 600;
-    font-size: 4vw;
+    font-size: 4.5vw;
 }
 #join,
 #login {
     padding: 5px;
-    position: absolute; left: 30%;
+    position: absolute; left: 25%;
     background-color: white;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 #login {
     left: 50%;
@@ -169,7 +162,7 @@ main {
 .weather-card {
     grid-row: 5/6;
 }
- .spotlights {
+.spotlights {
     grid-row: 3/4;    
 }
 .resource-card {
