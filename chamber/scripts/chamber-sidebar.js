@@ -1,6 +1,6 @@
 window.scroll(function () {
     var threshold = 50;
-    $("#events").html($(window).scrollTop());
+    $("#d-events").html($(window).scrollTop());
     if ($(window).scrollTop() >= threshold)
         $('#sidebar').addClass('fixed');
     else

@@ -222,6 +222,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center; 
+    margin: auto;
     gap: 10px;
 }
 
@@ -261,7 +262,7 @@ li a.menu-item {
 }
 
 li a.open {    
-    font-size: 140%;
+    font-size:3vw;
     max-width: 100%;
     padding-right: 20px;
 	display: flex;
