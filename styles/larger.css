@@ -53,3 +53,16 @@
         width: 60%;
     }
 }
+/* ------form and table------- */
+#form h1 {
+    font-size: 3vw;
+}
+.submitBtn {
+    font-size: 2vw;
+}
+#rate {
+    width: 50%;
+}
+.ratinglabels {
+    width: 50%;
+}
