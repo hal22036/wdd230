@@ -96,7 +96,7 @@
         grid-row: 5/6;
     }
     p {
-        font-size: 3vw;
+        font-size: 2vw;
     }
     li {
         font-size: 3vw;
@@ -126,8 +126,13 @@
         z-index: -5;
         background: #993a2e;
     }
-    .sidebar p {
-        font-size: 16px;
+    #d-events li {
+        font-size: 2vw;
+    }
+    #d-events h2,
+    .statistics h2,
+    .population h2 {
+        font-size: 3vw;
     }
     .page {
         margin-left: 33vw;

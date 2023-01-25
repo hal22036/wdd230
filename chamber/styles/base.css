@@ -281,10 +281,18 @@ li a.open {
     text-align: center;
     background-color: var(--accent1-color);
     color: white;
-    font-size: 18px;
+    font-size: 3vw;
 }   
 .sidebar p {
     font-size: 3vw;
+}
+#d-events li {
+    font-size: 3.5vw;
+}
+#d-events h2,
+.statistics h2,
+.population h2 {
+    font-size: 5vw;
 }
 .statistics {
     margin-top: 20px;
