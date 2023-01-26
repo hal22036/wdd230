@@ -55,10 +55,10 @@
 }
 /* ------form and table------- */
 #form h1 {
-    font-size: 3vw;
+    font-size: 2rem;
 }
 .submitBtn {
-    font-size: 2vw;
+    font-size: 1.7rem;
 }
 #rate {
     width: 50%;

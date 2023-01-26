@@ -1,36 +1,34 @@
-//---------------------populate table----------------
-function clearFields() {
-	document.getElementsByName('name').value = '';
-	document.getElementsByName('email').value = '';
-	document.getElementsByName('password').value = '';
-	document.getElementsByName('repassword').value = '';
-}
-function showTable() {
-	let table = document.getElementById('table');
-	table.style.display = 'flex';
-}
 
-function addInputToTable() {
-	let name = document.getElementsByName('name').value;
-	let email = document.getElementsByName('email').value;
-	let password = document.getElementsByName('password').value;
-	let rating = document.getElementById('rating').value;
-	//check if input fileds are empty
-	// if (name != '' && email != '' && password != '' && repassword != '') {
-	// 	alert(name + '' + email + '' + password + '' + repassword + '');
-	// }else {
-	// 	alert('One or More Input Fields Are Empty');
 
-	name.document.getElementById('name').textContent = name;
-	email.document.getElementById('email').textContent = email;
-	password.document.getElementById('password').textContent = password;
-	rating.document.getElementById('rating').textContent = rating;
 
-    showTable();
-	clearFields();
-}
-	
+let fname = document.getElementById('f-name');
+fname.addEventListener('change', () => {	
+	let name = document.getElementById('f-name').value;
+	let tName = document.getElementById('t-name');
+	tName.textContent = name; 
+});
+let fEmail = document.getElementById('f-email');
+fEmail.addEventListener('change', () => {
+	let email = document.getElementById('f-email').value;
+	let tEmail = document.getElementById('t-email');
+	tEmail.textContent = email;
+});
+let fUser = document.getElementById('f-user');
+fUser.addEventListener('change', () => {
+	let user = document.getElementById('f-user').value;
+	let tUser = document.getElementById('t-user');
+	tUser.textContent = user;
+});
+let fRating = document.getElementById('rate');
+fRating.addEventListener('change', () => {
+    let rating = document.getElementById('rate').value;
+    let tRating = document.getElementById('t-rating');
+    tRating.textContent = rating;
+});
 
 
 let submit = document.querySelector('.submitBtn');
-submit.addEventListener('click', addInputToTable());
+submit.addEventListener('click', () => {
+	let table = document.getElementById('table');
+	table.style.display = 'block';
+});

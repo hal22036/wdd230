@@ -208,7 +208,7 @@ li a.open {
     display: inline-block;
     -webkit-text-size-adjust: 100%;
     border: none;
-    width: 60%;
+    width: 30%;
     padding: 5 3%;
     min-height: 20rem;
     margin-left: 1%;
@@ -225,7 +225,7 @@ form fieldset {
 form label.top {
     display: block;
     padding-top: 1rem;
-    font-size: 2vw;
+    font-size: 2rem;
     text-align: left;
     max-width: 20rem;
     width: 90%;
@@ -237,7 +237,7 @@ form label.top input:required:valid {
 form label.top input {
     -webkit-appearance: none;
     display: block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
@@ -247,7 +247,7 @@ form label.top input {
     background-color: rgba(0,0,0,0.1);
 }
 #form h1 {
-	font-size: 4vw;
+	font-size: .5rem;
 	text-align: center;
     border-radius: 20px;
     color: white;
@@ -269,11 +269,15 @@ input:focus {
     background-color: #ddd;
 }
 #rate {
+    -webkit-appearance: none;
 	margin-bottom: 0;
 	padding-bottom: 0;
     padding-right: 0;
-    padding-left: 2%;
 	width: 90%;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);    
+    background:linear-gradient(to right, #3b3467 0%, red 100%);
+    height: 4px;
 }
 .ratinglabels {
 	font-size: 1rem;
@@ -285,7 +289,7 @@ input:focus {
 }
 
 #rating {
-	color: blue;
+    color: blue;
 }
 
 .ratevalue {
@@ -300,7 +304,7 @@ button {
     border-radius: .4rem;
     background: var(--secondary-color);
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 2rem;
     color: white;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 0;
@@ -310,13 +314,9 @@ button {
     padding-left: 0;
 }
 /* -----------table----------------- */
-#table {
-    /* display: none; */
-}
-table{
-    margin: 10px auto;
-	border: thin solid var(--secondary-color);
-	box-shadow: 0 0 7px var(--accent1-color);
+#table{
+    display: none;
+    margin: 10px auto 5rem 50%;
 	border-collapse: collapse;
 }
 tr:first-child th {

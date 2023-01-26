@@ -1,6 +1,6 @@
 
 //--------------------RATING---------------------------
-const rating = document.getElementById("rating");
+const rating = document.getElementById("f-rating");
 const rangevalue = document.getElementById("rate");
 
 function displayRatingValue() {
@@ -11,7 +11,27 @@ rangevalue.addEventListener('change', displayRatingValue);
 rangevalue.addEventListener('input', displayRatingValue);
 
 
+//---------------------password-------------------------
+const kp1 = document.querySelector("#f-user");
+const kp2 = document.querySelector("#rename");
+const message = document.querySelector("#formmessage");
 
+kp2.addEventListener("focusout", checkSame);
+
+function checkSame() {
+    if (kp1.value !== kp2.value) {
+        message.textContent = "Passwords DO NOT MATCH!";
+        message.style.display = "block";
+        message.style.backgroundColor = "#ffff33";
+        kp2.style.color = "#fff";
+        kp1.focus();
+        kp2.value = "";
+    } else {
+        message.style.display = "none";
+        kp2.style.backgroundColor = "lightgrey";
+        kp2.style.color = "#000";
+    }
+}
 
 
 // ---------HEART RATING-------------------------

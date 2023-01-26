@@ -74,19 +74,17 @@
           <iframe src="https://www.google.com/maps/d/embed?mid=11EErcI1oHz18QcsKjFxTpJx4Xwg&hl=en_US&ehbc=2E312F" width="600" height="450" loading="lazy"></iframe>  
 <!-- ------------ ----------- -----FORM----------------- -->
           <section id="form">
-            <form method="get">
+            <form>
             <fieldset>
               <h1>Contact Form</h1>
-              <label class="top">Full Name*<input type='text' name='name' placeholder ='Your Full Name' required></label>
-              <label class="top">Email*<input type='email' name='email' placeholder ="someone@gmail.com" required></label>
-              <!-- password section -->
-              <div id="formmessage">
-                <label class="top">User Name*<input type='text' name='password' placeholder ='5-12 Characters (AZaz123!@#)' pattern="(?=.*\d)(?=.*[^A-Za-z0-9])(?=.*[a-z])(?=.*[A-Z]).{5,12}" required ></label>
-                <label class="top">Re-enter User Name*<input type='text' name='repassword' placeholder ="5-12 Characters (AZaz123!@#)" required></label>
-                
-              </div>
-
-              <label class="r-label" for="rate">Rate My Page [ <span id="rating"></span> ]:</label>
+              <label  class="top">Full Name*<input id="f-name" type='text' name='name' placeholder ='Your Full Name' required></label>
+              <label  class="top">Email*<input id='f-email' type='email' name='email' placeholder ="someone@gmail.com" required></label>
+              <!-- password section -->              
+                <label  class="top">User Name*<input id='f-user' type='password' name='password' placeholder ='5-12 Characters (AZaz123!@#)' pattern="(?=.*\d)(?=.*[^A-Za-z0-9])(?=.*[a-z])(?=.*[A-Z]).{5,12}" required ></label>
+                <label  class="top">Re-enter User Name*<input id='rename' type='password' name='repassword' placeholder ="5-12 Characters (AZaz123!@#)" required></label>
+                <div id="formmessage"></div>
+              <!-- rating section -->
+              <label class="r-label" for="rate">Rate My Page [ <span id="f-rating"></span> ]:</label>
 	            <div class="rangecontainer">
                 <input type="range" min="1" max="10" id="rate" name="rate" list="ten" required="required">
               <div class="ratinglabels">
@@ -113,12 +111,12 @@
                 <option label="8">8</option>
                 <option label="9">9</option>
                 <option label="10">10</option>
-              </datalist>
-              <input type="submit" value="Send Information" class="submitBtn">             
-                        
-          
-<!-- ----------------------TABLE------------------ -->
-          
+              </datalist>            
+              <!-- <button class="submitBtn">Send Information</button> -->
+              <input type="button" value="Send Information" class="submitBtn">             
+            </fieldset>
+          </form>                   
+<!-- ----------------------TABLE------------------ -->          
             <table id="table">
             <thead>
               <tr>
@@ -132,28 +130,24 @@
             <tbody>
             <tr>
               <td>Name:</td>
-              <td id="name"></td>
+              <td id="t-name"></td>
             </tr>
             <tr>
               <td>Email:</td>
-              <td id="email"></td>
+              <td id="t-email"></td>
             </tr>
             <tr>
               <td>User Name:</td>
-              <td id="password"></td>
+              <td id="t-user"></td>
             </tr>
             <tr>
               <td>Rating:</td>
               <td id="t-rating"></td>
             </tr>
             </tbody>
-          </table>
-        </fieldset>
-      </form>
-    </section>
-        
-        </main>
-    
+          </table>        
+        </section>        
+        </main>    
     <footer>
       <p id="copyright"></p>
       <p class="highlight" id="lastModified"><mark>Last Modification:</mark> </p>
@@ -162,5 +156,6 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/mode.js"></script>
     <script src="scripts/form.js" ></script>
+    <script src="scripts/table.js"></script>
   </body>
 </html>
