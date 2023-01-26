@@ -205,13 +205,16 @@ li a.open {
 /* ----------------------Contact Form-------------------------- */
 
 #form {
+    justify-content: center;
     display: inline-block;
     -webkit-text-size-adjust: 100%;
     border: none;
-    width: 30%;
+    width: 90%;
+    max-width: 20rem;
     padding: 5 3%;
     min-height: 20rem;
     margin-left: 1%;
+    margin: 0 auto;
 }
 form {
 	grid-gap: 0.35rem;
@@ -314,10 +317,10 @@ button {
     padding-left: 0;
 }
 /* -----------table----------------- */
-#table{
+table{
     display: none;
-    margin: 10px auto 5rem 50%;
 	border-collapse: collapse;
+    margin: 0 auto;
 }
 tr:first-child th {
     background-color: var(--secondary-color);
@@ -334,6 +337,7 @@ td {
     font-weight: 700;
     text-align: right;
     border: 1px solid var(--secondary-color);
+    padding: 12px;
 }
 tr {
     border: var(--secondary-color)
