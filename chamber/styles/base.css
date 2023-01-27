@@ -96,11 +96,11 @@ main {
 }
 #hero-img {
     position: relative;
-    width: 100%;
+    width: 100%; height: auto;
     margin: 0 auto;
 }
 #home-title{
-    position: absolute; top: 3%; left: 10%;
+    position: absolute; top: 3%; left: 12%;
     background-color: #000;
     color: #fff;
     font-family: var(--heading-font);
@@ -111,7 +111,7 @@ main {
 }
 #home-title p {
     font-weight: 600;
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 #join,
 #login {
@@ -127,7 +127,7 @@ main {
     left: 50%;
 }
 .card-img {
-    max-width: 100%;
+    max-width: 100%; height: auto;
     text-align: center;
     border: .8vw solid var(--accent2-color);
     margin-top: 30px;
