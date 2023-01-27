@@ -407,10 +407,10 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: var(--accent1-color) solid 6px;
 }
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: var(--primary-color) solid 6px;
 }
 form h3 {
     font-size: 3rem;
