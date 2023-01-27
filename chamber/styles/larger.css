@@ -14,6 +14,16 @@
         padding: 1rem;
         background-color: var(--accent1-color);
     }
+    header {
+        height: 80px;
+    }
+    header p {
+        font-size: 3vw;
+    }
+    #logo {
+        width: 80px;
+        height: auto;
+    }
     nav a {
         padding-left: 40px;
         padding-right: 20px;        
@@ -22,26 +32,7 @@
     #menu-button {
         padding-left: 40px;
     }
-    header {
-        height: 80px;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        font-size: 20px;
-        background-color: var(--primary-color);
-        color: var(--accent2-color);
-    }
-    #logo {
-        margin-left: 10px;
-        width: 8%;
-        height: auto;
-    }
-    #logo-container p{
-        padding: 2%;
-        margin-top: 1%;
-        font-size: 18px;
-        font-size: 2vw;
-    }
+
     #banner > a {
         font-size: 2vw;
     }
