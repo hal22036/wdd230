@@ -300,7 +300,8 @@ li a.open {
     font-weight: bolder;
 }
 .pie-chart {
-    width: 60%;
+    width: 70%;
+    height: auto;
 }
 #d-events {
     padding: 0;
@@ -339,6 +340,7 @@ li a.open {
     width: 100%;
     background: black;
     animation: fade 15s;
+    height: auto;
 }
 .events-list {
     list-style-type: square;
