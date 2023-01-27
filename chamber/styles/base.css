@@ -22,6 +22,7 @@ body {
 }
 #search {
     padding-right: 20px;
+    height: 48px;
 }
 label {
     display: flex;
@@ -42,8 +43,18 @@ nav {
 }
 nav a {
     font-size: 3.5vw;
+    height: 48px;
+    margin-top: 18px;
     padding: 2px;
     color: white;
+    align-items: center;
+}
+#nav-login,
+#nav-join {
+    margin: 4px;
+    margin-right: 8px;
+    padding-top: 16px;
+    
 }
 header {
     display: flex;
