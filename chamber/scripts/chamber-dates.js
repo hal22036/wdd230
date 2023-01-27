@@ -8,3 +8,5 @@ document.getElementById("today").innerHTML = `Current Date: ${now}`;
 
 const time = new Date().toLocaleTimeString();
 document.getElementById("time").innerHTML = `Local Time: ${time}`;
+
+const hidden = document.getElementById("hidden").value = `Date & Time: ${now}, ${time}`;

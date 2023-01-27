@@ -52,7 +52,7 @@
         padding-left: 5px;
         margin-left: 15px;
         margin-right: 10px;
-        grid-gap: 3%;
+        grid-gap: 10px;
     }
     #home-title {
         top: 5%;
@@ -209,5 +209,21 @@
         top:auto;
         bottom:0;
         position:absolute;
+    }
+
+/* -----------Join Us--------------- */
+    #joinus {    
+        grid-column: 1/3;
+    }
+    #join-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    #benefits h2{
+        margin-top: 60px;
+        display: grid;
+        grid-column: 2/3;
+        font-size: 3.5vw;
     }
 }

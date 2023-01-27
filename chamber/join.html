@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description" content="North Las Vegas Chamber of Commerce Join Us Page">
+    <meta name="author" content="Jeni Hales">
+    <meta property="og:url" content="https://hal22036.github.io/wdd230/chamber/join.html">
+    <meta property="og:title" content="WDD 230 Course Activity Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTma9oTpGTzChS3FuxDrtgU3sWcoaC_8rgkdKIyawh5zVdCLXJ9PLsD3X2dXButvJvH">
+    <title>North Las Vegas Chamber of Commerce Join Us Webpage</title>
+</head>
+<body>  
+    <nav>
+        <img id="menu-button" src="images/white-hamb.webp" alt="menu icon">
+        <div class="search-bar">
+            <label for="search"></label>
+            <input type="search" id="search" placeholder="search">
+        </div> 
+        <div class="user-cards"></div> 
+        <a href="index.html" target="_blank">Member Login</a>
+        <ul id="hamb-menu">
+        <li title="home">
+            <a href="index.html" class="menu-item">🏠 Home</a>
+            </li>
+          <li title="discover">
+            <a href="discover.html" class="menu-item">📎 Discover</a>
+          </li>
+          <li title="directory">
+            <a href="index.html" class="menu-item">📨 Directory</a>
+          </li>
+        </ul>      
+    </nav> 
+    <header>
+      <div id="logo-container">
+        <img id='logo' src="images/hales-logo.webp" alt="logo">
+          <p id="today"></p>
+          <p id="time"></p>
+      </div>
+    </header>                 
+    <main id="join-grid"> 
+        <h1 id="joinus">Join Us!</h1>
+        <form method='get' action="thankyou.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" placeholder="First Name" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" placeholder="Last Name" required></label>
+            <label class="top">Title<input type="text" name="title" pattern="[a-zA-Z\-\s]{7,}" placeholder="Business Position"></label>
+            
+            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Cell Phone Number<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Business Name<input type="text" name="fname" placeholder="My Business" required></label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Levels & Annual Fees</legend>
+            <label class="sbs"><input type="radio" name="audience" value="beginner">Free Non-Profit</label>
+            <label class="sbs"><input type="radio" name="audience" value="intermediate">$179 Bronze</label>
+            <label class="sbs"><input type="radio" name="audience" value="advanced">$299 Silver</label>
+            <label class="sbs"><input type="radio" name="audience" value="advanced">$499 Gold</label>
+           
+        </fieldset>
+        <fieldset>
+            <legend>Business Description</legend>
+            <label><textarea id="business" placeholder="Describe your business"></textarea></label>
+        </fieldset>
+        <!-- HIDDEN FIELD WITH CURRENT DATE AND TIME THAT THE FORM WAS LOADED BY THE USER -->
+        <label><input id="hidden" type="hidden"></label>
+        <input type="submit" value="Join Now" class="submitBtn">
+        
+    </form>    
+    <div id="benefits">
+      <h2>Membership Level Benefits</h2>
+          <h3 id="np">Non-Profit</h3>
+              <p>Our free membership provided for non-profit organizations includes an enhanced business profile, online visibility report and the chamber news letter.</p>
+          <h3 id="bronze">Bronze</h3>
+                  <p>Includes everything in the basic membership as well as a website link, Chamber Accreditation Badge, Employee Benefits Program, exclusive deals and discounts, marketing audit, and OSHA and Affordable Care Act.</p>
+                  <p>Also included is our Stand Out and Get Found package. This puts you at the top placement in your local area, disputes negative reviews, puts ads on the competitor listings, up to 15 photos and 5 additional categories.</p>
+          <h3 id="silver">Silver</h3>
+              <p>Includes everything in the Bronze membership, as well as Review Defender and QR Review Display.</p>
+          <h3 id="gold">Gold</h3>
+              <p>Includes everything in the Silver membership, as well as List your business on Chamber Deals and press release credibility booster.</p>
+              <p>Please message us for any further information. NLVchamberofcommerce@infoNV.com</p>
+  </div>
+    </main>
+    <footer>
+        <p id="copyright"></p>
+        <p class="highlight" id="lastModified"><mark>Last Modification:</mark> </p>
+        <div id="social">     
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+              </a>
+            <a href="" target="_blank">
+                <img src="images/contact-icon.png" alt="fb icon">
+              </a>
+        </div>
+    </footer>
+    <script src="scripts/chamber-dates.js"></script>
+    <script src="scripts/chamber-menu.js"></script>
+</body>
+</html>
