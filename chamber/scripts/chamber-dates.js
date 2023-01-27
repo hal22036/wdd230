@@ -7,4 +7,6 @@ const now = new Date().toLocaleDateString('en-us', {weeday:'long', year:'numeric
 const time = new Date().toLocaleTimeString();
 document.getElementById("today").innerHTML = `Current Date & Time: ${now} ${time}`;
 
-const hidden = document.getElementById("hidden").value = `Date & Time: ${now}, ${time}`;
+
+const hidden = document.getElementById("hidden");
+hidden.value = `Date & Time: ${now}, ${time}`;
