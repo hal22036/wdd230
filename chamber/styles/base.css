@@ -42,7 +42,7 @@ nav {
     border-bottom: solid var(--primary-color);
 }
 nav a {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     height: 48px;
     margin-top: 18px;
     padding: 2px;
@@ -53,8 +53,7 @@ nav a {
 #nav-join {
     margin: 4px;
     margin-right: 8px;
-    padding-top: 16px;
-    
+    padding-top: 16px;    
 }
 header {
     display: flex;
