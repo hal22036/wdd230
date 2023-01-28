@@ -242,7 +242,6 @@ menu {
 }
 #hamb-menu {
     align-items: center;
-    text-align: center;
     flex-direction: column;
     background: var(--accent2-color);
 	position: fixed;
@@ -251,6 +250,7 @@ menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+    padding-bottom: 15px;
 	z-index: 10;
 	overflow: hidden;
     border-radius: 15px;
@@ -271,7 +271,7 @@ li a.menu-item {
 }
 
 li a.open {    
-    font-size:3vw;
+    font-size:2vw;
     max-width: 100%;
     padding-right: 20px;
 	display: flex;
