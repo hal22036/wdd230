@@ -379,6 +379,7 @@ form legend {
     color: var(--primary-color);
     margin: 0 1rem;
     padding: 0 0.5rem;
+    font-size: 4vw;
 }
 form label.top, form div {
     display: block;
@@ -402,6 +403,7 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
     color: var(--accent1-color);
+    font-size: 4vw;
 }
 form .submitBtn {
     font-size: 3rem;
