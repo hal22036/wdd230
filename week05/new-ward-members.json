@@ -1,0 +1,22 @@
+{
+    "familyName" : "Smith",
+    "moveInDate" : "February 3, 2020",
+    "numberOfRecords" : 3,
+    "visited" : true,
+    "members" : [
+      {
+        "name" : "Joe Smith",
+        "gender" : "male",
+        "birthdate" : "January 2, 1962"
+      },
+      {
+        "name" : "Jane Smith",
+        "gender" : "female",
+        "birthdate" : "August 22, 1964"
+      },
+      {
+        "name" : "Charles Smith",
+        "gender" : "male",
+        "birthdate" : "January 28, 1992"
+      }
+]}

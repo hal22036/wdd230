@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Poppins:ital,wght@1,500&display=swap');
-@import url('https://coolors.co/3b4367-fbf7ef-fdd8c5-51372a-7e7261');
+/* @import url('https://coolors.co/3b4367-fbf7ef-fdd8c5-51372a-7e7261'); */
 
 :root {
     --heading-font: "Anybody";
@@ -96,6 +96,17 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+#current-temp {
+    font-size: 1.5rem;
+    text-align: center;
+}
+figure {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 #project a {
     padding: 35px;
