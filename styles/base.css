@@ -63,7 +63,7 @@ picture img {
     align-items: center;
 }
 #hero-title {
-    position: absolute; top: 5%; left: 10%;
+    position: absolute; top: 1%; left: 8%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: .5rem;

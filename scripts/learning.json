@@ -1,8 +1,0 @@
-
-{
-    "week01": ["week01/holygrail.html", "week01/media-query.html", "https://codepen.io/hal22036/pen/OJwXZjK", "week01/chamber-site-plan.html"],
-    "week02": ["week02/design.html", "https://codepen.io/hal22036/pen/dyjOrvo", "week02/bom.html"],
-    "week03": ["week03/images/landscape.webp", "week03/lazyload.html", "https://codepen.io/hal22036/pen/bGjrPVz?editors=1000", "week03/bom.html"],
-    "week04": ["https://codepen.io/hal22036/pen/ZEjrVQE?editors=1100", "week04/images/combinators.png", "week04/tablebuild.html", "week04/form-start/index.html"],
-    "week05": ["https://codepen.io/hal22036/pen/mdjGVKE", "week05/new-ward-members.json", "week05/prophets.html", "week05/weather.html"]
-  }

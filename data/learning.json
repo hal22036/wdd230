@@ -1,0 +1,36 @@
+{ 
+  "weeks": [
+    {
+      "Week 01:": [
+      {
+        "Holy Grail":  "week01/holygrail.html",
+        "Media Query": "week01/media-query.html",
+        "Pen": "https://codepen.io/hal22036/pen/OJwXZjK", 
+        "Site Plan": "week01/chamber-site-plan.html"
+      }],
+      "Week 02:": [
+      {
+        "Design Page": "week02/design.html",
+        "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
+        "BOM Top 10": "week02/bom.html"
+      }],
+      "Week 03:": [
+      {
+        "WebP Image": "week03/images/landscape.webp",
+        "Lazy Load": "week03/lazyload.html",
+        "Pen": "https://codepen.io/hal22036/pen/bGjrPVz?editors=1000",
+        "Local Storage": "week03/bom.html"
+      }],
+      "Week 04:": [
+      {
+        "Design Page": "week02/design.html",
+        "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
+        "BOM Top 10": "week02/bom.html"
+      }],
+      "Week 05:": [
+        {
+          "Design Page": "week02/design.html",
+          "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
+          "BOM Top 10": "week02/bom.html"
+        }]  
+        }]}
