@@ -6,7 +6,7 @@ async function getAssignments() {
         const response = await fetch(learningFile);
         if (response.ok) {
           const data = await response.json();
-          // console.log(data); 
+          console.log(data); 
           getAssignments(data); 
         } else {
             throw Error(await response.text());
@@ -22,7 +22,7 @@ function displayActivity(data) {
     data.forEach((element) => {
     console.log(element);
     });
-}
+};
 // const displayActivity = (activity) => {
 //     activity.forEach ((activity) => {
 //         let week = document.createElement('li');

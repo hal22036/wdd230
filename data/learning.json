@@ -23,14 +23,16 @@
       }],
       "Week 04:": [
       {
-        "Design Page": "week02/design.html",
-        "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
-        "BOM Top 10": "week02/bom.html"
+        "Pen": "https://codepen.io/hal22036/pen/ZEjrVQE?editors=1100",
+        "Combinators": "week04/images/combinators.png",
+        "Table Build": "week04/tablebuild.html",
+        "HTML Forms": "week04/form-start/index.html"
       }],
       "Week 05:": [
         {
-          "Design Page": "week02/design.html",
-          "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
-          "BOM Top 10": "week02/bom.html"
-        }]  
-        }]}
+          "Pen": "https://codepen.io/hal22036/pen/mdjGVKE",
+          "JSON": "week05/new-ward-members.json",
+          "Prophets": "week05/prophets.html",
+          "Weather": "week05/weather.html"
+      }]  
+    }]}
