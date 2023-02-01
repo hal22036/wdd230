@@ -36,3 +36,43 @@
           "Weather": "week05/weather.html"
       }]  
     }]}
+
+
+{ 
+  "assignments": [
+    {
+      "Week 01:": [
+        {
+          "name":"Holy Grail",
+          "href":"week01/holygrail.html"
+        },
+        {
+          "name":"Media Query",
+          "href":"week01/media-query.html"
+        },
+        {
+          "name":"Pen",
+          "href":"https://codepen.io/hal22036/pen/OJwXZjK"
+        },
+        {
+          "name":"Site Plan",
+          "href":"week01/chamber-site-plan.html"
+        } 
+        ]},
+    {
+      "Week 02:": [
+        {
+          "name":"Design Page",
+          "href":"week02/design.html"
+        },
+        {
+          "name":"Hamburger Menu",
+          "href":"https://codepen.io/hal22036/pen/dyjOrvo"
+        },
+        {
+          "name":"BOM Top 10",
+          "href":"week02/bom.html"
+        }
+      ]}
+  ]
+}

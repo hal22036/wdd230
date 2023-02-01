@@ -68,7 +68,7 @@ header {
 header p{
     color: white;
     margin: 0 auto;    
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
 }
 #logo {
@@ -461,3 +461,4 @@ form p {
     text-align: center;
     padding: 10px;
 }
+/* -------DIRECTORY PAGE----------- */

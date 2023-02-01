@@ -18,9 +18,17 @@ async function getAssignments() {
 
 getAssignments();
 
-function displayActivity(data) {
+function displayActivity(data) {    
+    let card = document.createElement('ul');
     data.forEach((element) => {
-    console.log(element);
+    // console.log(element);
+    let week = document.createElement('li');
+    let weekN = document.createElement('p');
+    let assignmentName = document.createElement('a');
+
+    week.textContent = data.weeks[i];
+    weekN.textContent = data.
+
     });
 };
 // const displayActivity = (activity) => {
