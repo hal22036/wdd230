@@ -1,5 +1,5 @@
 {
-    "Companies": [
+    "companies": [
         {
             "name": "Extra Space Storage",
             "address": [{
@@ -8,10 +8,10 @@
                 "state": "Nevada",
                 "zip": "89031"
             }],
-            "phone number": "7022717873",
+            "phone": "(702)271-7873",
             "website": "https://extraspace.com",
             "image":"images/ess-logo.png",
-            "membership": "level"
+            "membership": "Silver"
         },
         {
             "name": "Freed's Bakery",
@@ -21,10 +21,10 @@
                 "state": "Nevada",
                 "zip": "89030"
             }],
-            "phone number": "7024567762",
+            "phone": "(702)456-7762",
             "website": "https://freedsbakery.com",
             "image":"images/freeds.webp",
-            "membership": "level"
+            "membership": "Bronze"
         },
         {
             "name": "Southwest Bikes",
@@ -34,10 +34,10 @@
                 "state": "Nevada",
                 "zip": "89130"
             }],
-            "phone number": "7022277433",
+            "phone": "(702)227-7433",
             "website": "https://www.southwestbikes.com/",
             "image":"images/southwest-bikes.jpg",
-            "membership": "level"
+            "membership": "Bronze"
         },
         {
             "name": "Monti's Smokehouse BBQ",
@@ -47,10 +47,10 @@
                 "state": "Nevada",
                 "zip": "89142"
             }],
-            "phone number": "7027624698",
+            "phone": "(702)762-4698",
             "website": "https://montissmokehousebbq.com/",
             "image":"images/Montis-Smokehouse.png",
-            "membership": "level"
+            "membership": "Gold"
         },
         {
             "name": "Desert Lumber",
@@ -60,10 +60,10 @@
                 "state": "Nevada",
                 "zip": "89081"
             }],
-            "phone number": "7026427800",
+            "phone": "(702)642-7800",
             "website": "https://www.desertcompanieslv.com/",
             "image":"images/desert-lumber.jpg",
-            "membership": "level"
+            "membership": "Gold"
         },
         {
             "name": "Target",
@@ -71,12 +71,12 @@
                 "street": "7090 N 5th St",
                 "city": "North Las Vegas",
                 "state": "Nevada",
-                    "zip": "89084"
+                "zip": "89084"
             }],
-            "phone number": "702216501",
+            "phone": "(702)216-1501",
             "website": "https://target.com",
             "image":"images/target.png",
-            "membership": "level"
+            "membership": "Gold"
         },
         {
             "name": "Ross",
@@ -86,10 +86,10 @@
                 "state": "Nevada",
                 "zip": "89084"
             }],
-            "phone number": "7023994107",
+            "phone": "(702)399-4107",
             "website": "https://www.rossstores.com/",
             "image":"images/logo-ross.png",
-            "membership": "level"
+            "membership": "Silver"
         }
     ]
 

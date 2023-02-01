@@ -1,78 +1,112 @@
 { 
-  "weeks": [
-    {
-      "Week 01:": [
-      {
-        "Holy Grail":  "week01/holygrail.html",
-        "Media Query": "week01/media-query.html",
-        "Pen": "https://codepen.io/hal22036/pen/OJwXZjK", 
-        "Site Plan": "week01/chamber-site-plan.html"
-      }],
-      "Week 02:": [
-      {
-        "Design Page": "week02/design.html",
-        "Hamburger Menu": "https://codepen.io/hal22036/pen/dyjOrvo",
-        "BOM Top 10": "week02/bom.html"
-      }],
-      "Week 03:": [
-      {
-        "WebP Image": "week03/images/landscape.webp",
-        "Lazy Load": "week03/lazyload.html",
-        "Pen": "https://codepen.io/hal22036/pen/bGjrPVz?editors=1000",
-        "Local Storage": "week03/bom.html"
-      }],
-      "Week 04:": [
-      {
-        "Pen": "https://codepen.io/hal22036/pen/ZEjrVQE?editors=1100",
-        "Combinators": "week04/images/combinators.png",
-        "Table Build": "week04/tablebuild.html",
-        "HTML Forms": "week04/form-start/index.html"
-      }],
-      "Week 05:": [
-        {
-          "Pen": "https://codepen.io/hal22036/pen/mdjGVKE",
-          "JSON": "week05/new-ward-members.json",
-          "Prophets": "week05/prophets.html",
-          "Weather": "week05/weather.html"
-      }]  
-    }]}
-
-
-{ 
   "assignments": [
     {
-      "Week 01:": [
+      "label":"Week 01",
+      "links": [
         {
-          "name":"Holy Grail",
+          "tag":"Holy Grail",
           "href":"week01/holygrail.html"
         },
         {
-          "name":"Media Query",
+          "tag":"Media Query",
           "href":"week01/media-query.html"
         },
         {
-          "name":"Pen",
+          "tag":"Pen",
           "href":"https://codepen.io/hal22036/pen/OJwXZjK"
         },
         {
-          "name":"Site Plan",
+          "tag":"Site Plan",
           "href":"week01/chamber-site-plan.html"
         } 
         ]},
     {
-      "Week 02:": [
+      "label":"Week 02",
+      "links": [
         {
-          "name":"Design Page",
+          "tag":"Design Page",
           "href":"week02/design.html"
         },
         {
-          "name":"Hamburger Menu",
+          "tag":"Hamburger Menu",
           "href":"https://codepen.io/hal22036/pen/dyjOrvo"
         },
         {
-          "name":"BOM Top 10",
+          "tag":"BOM Top 10",
           "href":"week02/bom.html"
         }
-      ]}
+      ]},
+    {
+      "label":"Week 03",
+      "links": [
+        {
+          "tag":"WebP Image",
+          "href":"week03/images/landscape.webp"
+        },
+        {
+          "tag":"Lazy Load",
+          "href":"week03/lazyload.html"
+        },
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/hal22036/pen/bGjrPVz?editors=1000"
+        },
+        {
+          "tag":"Local Storage",
+          "href":"week03/bom.html"
+        } 
+        ]},
+    {
+      "label":"Week 04",
+      "links": [
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/hal22036/pen/ZEjrVQE?editors=1100"
+        },
+        {
+          "tag":"Combinators",
+          "href":"week04/images/combinators.png"
+        },
+        {
+          "tag":"Table Build",
+          "href":"week04/tablebuild.html"
+        },
+        {
+          "tag":"HTML Forms",
+          "href":"week04/form-start/index.html"
+        } 
+        ]},
+    {
+      "label":"Week 05",
+      "links": [
+        {
+          "tag":"Pen",
+          "href":"https://codepen.io/hal22036/pen/mdjGVKE"
+        },
+        {
+          "tag":"JSON",
+          "href":"week05/new-ward-members.json"
+        },
+        {
+          "tag":"Prophets",
+          "href":"week05/prophets.html"
+        },
+        {
+          "tag":"Weather",
+          "href":"week05/weather.html"
+        } 
+        ]},
+    {
+      "label":"Week 06",
+      "links": [
+        {
+          "tag":[],
+          "href":[]
+        },
+        {
+          "tag":[],
+          "href":[]
+        }
+        ]}
   ]
 }
