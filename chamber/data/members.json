@@ -23,7 +23,7 @@
             }],
             "phone": "(702)456-7762",
             "website": "https://freedsbakery.com",
-            "image":"images/freeds.webp",
+            "image":"images/freeds.png",
             "membership": "Bronze"
         },
         {
@@ -36,11 +36,11 @@
             }],
             "phone": "(702)227-7433",
             "website": "https://www.southwestbikes.com/",
-            "image":"images/southwest-bikes.jpg",
+            "image":"images/southwest-bikes.png",
             "membership": "Bronze"
         },
         {
-            "name": "Monti's Smokehouse BBQ",
+            "name": "Monti's BBQ",
             "address": [{
                 "street": "6320 E Charleston Blvd",
                 "city": "North Las Vegas",
@@ -62,7 +62,7 @@
             }],
             "phone": "(702)642-7800",
             "website": "https://www.desertcompanieslv.com/",
-            "image":"images/desert-lumber.jpg",
+            "image":"images/desert-lumber.png",
             "membership": "Gold"
         },
         {
@@ -89,6 +89,45 @@
             "phone": "(702)399-4107",
             "website": "https://www.rossstores.com/",
             "image":"images/logo-ross.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Casa Amigos",
+            "address": [{
+                "street": "3740 E Flamingo Rd",
+                "city": "North Las Vegas",
+                "state": "Nevada",
+                "zip": "89121"
+            }],
+            "phone": "(702)4330600",
+            "website": "https://casaamigosrestaurant.com",
+            "image":"images/casa-amigos.webp",
+            "membership": "Gold"
+        },
+        {
+            "name": "Immortal Craft Barber",
+            "address": [{
+                "street": "6825 W Russell Rd #130",
+                "city": "North Las Vegas",
+                "state": "Nevada",
+                "zip": "89118"
+            }],
+            "phone": "(702)272-2280",
+            "website": "https://www.immortalcraftbarbers.com/",
+            "image":"images/immortal_final.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Big Muscle Gains",
+            "address": [{
+                "street": "5877 Azure Ave",
+                "city": "North Las Vegas",
+                "state": "Nevada",
+                "zip": "89031"
+            }],
+            "phone": "(702)530-4660",
+            "website": "https://www.bigmusclegains.com/",
+            "image":"images/BMG.webp",
             "membership": "Silver"
         }
     ]
