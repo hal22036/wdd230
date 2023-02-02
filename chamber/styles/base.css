@@ -500,6 +500,12 @@ form p {
     box-shadow: 5px 5px 10px #6f7364;
     margin: 5px;
 }
+.dir-list section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1rem;
+}
 .dir-grid img {
     padding-top: 15px;
 }
@@ -507,32 +513,6 @@ form p {
     font-size: 1.2rem;
 }
 .dir-list p{
-    font-size: 1rem;
-    
+    font-size: 1rem;    
 }
-.dir-list section{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 1rem;
-}
-/* table {
-    width: 100%;
-    margin: 10px auto;
-	border: thin solid var(--border);
-	box-shadow: 0 0 7px var(--shadow);
-	border-collapse: collapse;
-}
-.dir-list th {
-    font-size: 1.5rem;
-}
-.dir-list td {
-    font-size: 1rem;
-    border: 1px solid var(--back);
-	padding: 7px 15px;
-    color: var(--font);
-    text-align: center;
-}
-.dir-list td:first-child {
-    font-weight: bolder;
-} */
+
