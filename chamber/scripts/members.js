@@ -83,7 +83,7 @@ function displayListMembers(data) {
 
     data.companies.forEach((element) => {
         let member = document.createElement('h2');
-        let company = document.createElement('p');
+        let company = document.createElement('h3');
         let street = document.createElement('p');
         let phone = document.createElement('p');;
         let url = document.createElement('p');
