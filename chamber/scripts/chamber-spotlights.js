@@ -31,7 +31,7 @@ function getThree() {
       spotlights.splice(Math.round(Math.random()*spotlights.length), 1)
       console.log(spotlights)
     };
-    spot1.innerHTML = spotlights[0].name;
-    spot2.innerHTML = spotlights[1].name;
-    spot3.innerHTML = spotlights[2].name;
+    spot1.innerHTML = `✨ ${spotlights[0].name}`;
+    spot2.innerHTML = `✨ ${spotlights[1].name}`;
+    spot3.innerHTML = `✨ ${spotlights[2].name}`;
   };

@@ -2,6 +2,8 @@ const learning = document.querySelector('#learning');
 const learningFile = 'data/learning.json';
 let ul = document.createElement('ul');
 
+
+
 getAssignments();
 
 function displayActivity(data) {        
@@ -9,12 +11,16 @@ function displayActivity(data) {
         let li = document.createElement('li');
         let p = document.createElement('p');
         p.textContent = `${element.label}:`;
-        element.links.forEach((link) => {
-            let a = document.createElement('a');            
-            a.textContent = link.tag;
-            a.setAttribute('href', link.href);
-            p.appendChild(a);  
-        })
+        let linkCount = element.links.length;
+        for (let i = 0; i < linkCount; i++) {
+        let link = element.links[i];
+        let a = document.createElement('a');
+        let span = document.createElement("span");            
+        a.textContent = link.tag;
+        a.setAttribute('href', link.href);
+        span.appendChild(a);
+        p.appendChild(span);  
+        }
         li.appendChild(p);
         ul.appendChild(li);
         });

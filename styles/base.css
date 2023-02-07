@@ -92,6 +92,9 @@ header {
     border-radius: 20px;
     box-shadow: 5px 5px 5px #7e72615f;
 }
+#learning span:not(:last-child)::after {
+    content: '|';
+}
 #information p {
     text-align: center;
     justify-content: center;
@@ -102,11 +105,8 @@ header {
     text-align: center;
 }
 figure {
-    display: flex;
     text-align: center;
     align-items: center;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 #project a {
     padding: 35px;

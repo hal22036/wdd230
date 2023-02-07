@@ -95,18 +95,6 @@
           "tag":"Weather",
           "href":"week05/weather.html"
         } 
-        ]},
-    {
-      "label":"Week 06",
-      "links": [
-        {
-          "tag":[],
-          "href":[]
-        },
-        {
-          "tag":[],
-          "href":[]
-        }
         ]}
   ]
 }
