@@ -54,33 +54,7 @@ function displayGridMembers(data) {
     });
 }
 
-function displayListMembers(data) {    
-//     const div = document.createElement('div.table');
-//     let tableHeaders = ['Business', 'Address', 'Phone', 'Website', 'Membership'];
-//     const createTableHead = () => {
-//         while(div.firstChild) div.removeChild(div.firstChild);
-//         let directoryTable = document.createElement('table');
-//         directoryTable.className = 'directoryTable';
-//         let directoryTableHead = document.createElement('thead');
-//         directoryTableHead.className = 'directoryTableHead';
-//         let tableHeaderRow = document.createElement('tr');
-//         tableHeaderRow.className = 'tableHeaderRow';
-
-//         tableHeaders.forEach(header => {
-//             let tableHeader = document.createElement('th');
-//             tableHeader.innerHTML = header;
-//             tableHeaderRow.append(tableHeader);
-//         })
-//         directoryTableHead.append(tableHeaderRow);
-//         directoryTable.append(directoryTableHead);
-
-//         let tableBody = document.createElement('tbody');
-//         tableBody.className = 'tableBody';
-//         directoryTable.append(tableBody);
-
-//         div.append(directoryTable);
-//  }    
-
+function displayListMembers(data) {  
     data.companies.forEach((element) => {
         let member = document.createElement('h2');
         let company = document.createElement('h3');

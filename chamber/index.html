@@ -43,7 +43,7 @@
     </header>                 
     <main> 
       <div id="banner">
-        <a href="index.html" target="_blank">CLICK FOR BUSINESS UPDATES</a></div>  
+        <a id="banner2" href="directory.html" target="_blank"></a></div>  
       <picture>
         <source media="(max-width:400px)" srcset="images/desert-nlvp.webp">
           <source media="(max-width:940px)" srcset="images/desert-nlv4.webp">
@@ -64,18 +64,34 @@
             
           </ul>
           </section>
+
+          <!-- SPOTLIGHTS -->
           <section id="spotlights" class="card">
             <h3>Spotlights</h3>
             <ul class="index-list">
-              <li> 🔦 Business Spotlights</li>
-              <li> 🪧 Advertisements</li>
-              <li> 🏆 Top Business of the Week</li>            
+              <li id="spot1"></li>
+              <li id="spot2"></li>
+              <li id="spot3"></li>            
             </ul>
           </section>
+
+          <!-- WEATHER -->
           <section id="weather" class="card">
             <h3>Weather</h3>
-            <p>Temperature: ⛅️</p>
+            <!-- <p>Current Local Temperature: <span id="current-temp"></span></p>
+            <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption></figcaption>
+            </figure> -->
+            <div id="current-temp"></div> 
+            <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption></figcaption>
+            </figure>    
+            <div id="forecast"></div>       
           </section>
+
+          <!-- RESOURCES -->
           <section id="resources" class="card">
               <h3>Resources</h3>
               <ul class="index-list">
@@ -132,6 +148,9 @@
               </a>
         </div>
     </footer>
+    <script src="scripts/chamber-banner.js"></script>
+    <script src="scripts/chamber-spotlights.js"></script>
+    <script src="scripts/chamber-weather.js"></script>
     <script src="scripts/chamber-dates.js"></script>
     <script src="scripts/chamber-menu.js"></script>
 </body>
