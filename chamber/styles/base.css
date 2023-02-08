@@ -179,8 +179,20 @@ main {
 }
 #paragraph {
     grid-row: 9/10;
-    padding-left: 5px;
+    box-shadow: 10px 10px 15px #6f7364;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: center;
 } 
+#paragraph h2 {
+    font-size: 4vw;
+}
+#paragraph p {
+    font-size: 3.4vw;
+}
 p {
     font-size: 5vw;
 }
@@ -207,9 +219,11 @@ h3 {
 }
 #current-temp {
     padding-top: 10px;
+    font-size: 1.3rem;
 }
 figure {
     text-align: center;
+    font-size: 1.3rem;
 }
 .index-list {
     display: inline;
