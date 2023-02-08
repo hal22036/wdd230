@@ -1,17 +1,16 @@
 const currentTemp = document.querySelector('#current-temp');
-// const weatherIcon = document.querySelector('#weather-icon');
-// const captionDesc = document.querySelector('figcaption');
-const forecast = document.querySelector('#forecast');
-const url = 'https://api.openweathermap.org/data/2.5/forecast?q=North%20Las%20Vegas,nv,us&units=imperial&APPID=a558cfbf5677c3eea632226cd7929c92';
-const CURRENT_TEMP = document.getElementsByClassName('weather-content__temp')[0];
-const FORECAST = document.getElementsByClassName('component__forecast-box')[0];
+
+const myLat = "36.29027911329074";
+const myLon = "-115.15741454610898";
+const myKey = "a558cfbf5677c3eea632226cd7929c92";
+const myUrl = `//api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLon}&units=imperial&APPID=${myKey}`;
 
 async function apiFetch() {
     try {
-      const response = await fetch(url);
+      const response = await fetch(myUrl);
       if (response.ok) {
         const data = await response.json();
-        // console.log(data); 
+        console.log(data); 
         displayResults(data);
       } else {
           throw Error(await response.text());
