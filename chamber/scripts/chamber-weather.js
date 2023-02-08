@@ -1,6 +1,6 @@
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+// const weatherIcon = document.querySelector('#weather-icon');
+// const captionDesc = document.querySelector('figcaption');
 const forecast = document.querySelector('#forecast');
 const url = 'https://api.openweathermap.org/data/2.5/forecast?q=North%20Las%20Vegas,nv,us&units=imperial&APPID=a558cfbf5677c3eea632226cd7929c92';
 const CURRENT_TEMP = document.getElementsByClassName('weather-content__temp')[0];
@@ -24,12 +24,19 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
+    const figure = document.createElement('figure');
+    const weatherIcon = document.createElement('img');
+    const captionDesc = document.createElement('figcaption');
     const iconsrc = `https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}.png`;
+    
     let desc = data.list[0].weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = `${desc}`;      
     currentTemp.innerHTML = `Current Temperature: ${data.list[0].main.temp}&deg;F`;   
+    figure.appendChild(weatherIcon);
+    figure.appendChild(captionDesc);
+    currentTemp.appendChild(figure);
 }
 
 // ------------------------------------------------------------------
