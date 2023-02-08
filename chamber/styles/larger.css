@@ -214,10 +214,22 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
+    form legend {
+        font-size: 2rem;
+    }
+    form label.sbs {
+        font-size: 1.8rem;
+    }
     #benefits h2{
         margin-top: 60px;
         display: grid;
         grid-column: 2/3;
         font-size: 3.5vw;
+    }
+    #benefits h3 {
+        font-size: 2.2rem;
+    }
+    #benefits p {
+        font-size: 1rem;
     }
 }

@@ -391,7 +391,7 @@ form legend {
     color: var(--primary-color);
     margin: 0 1rem;
     padding: 0 0.5rem;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 form label.top, form div {
     display: block;
@@ -415,7 +415,7 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
     color: var(--accent1-color);
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 form .submitBtn {
     font-size: 3rem;
@@ -459,11 +459,17 @@ form p {
     background: var(--accent1-color);
     border-radius: 10px;
     color: white;
+    margin-bottom: 10px;
+}
+#benefits h3 {
+    font-size: 2rem;
+    padding: 0;
 }
 #benefits p {
     color: var(--accent1-color);
+    font-size: 1.5rem;
 }
-/* ----Thank you---- */
+/* ----------------Thank you--------------- */
 
 #thank {
     color: var(--primary-color);
