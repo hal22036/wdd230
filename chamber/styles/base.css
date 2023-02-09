@@ -494,6 +494,11 @@ form p {
     padding: 10px;
 }
 /* -------DIRECTORY PAGE----------- */
+#d-title {
+    color: var(--accent1-color);
+    font-size: 3rem;
+    text-align: center;
+}
 .dir-menu {
     text-align: center;
 }
@@ -518,7 +523,7 @@ form p {
     border-radius: 5px;
     padding-left: 5px;
 }
-.dir-grid h1 {
+.dir-grid h2 {
     color: black;
 }
 .dir-grid li {

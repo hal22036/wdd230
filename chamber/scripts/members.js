@@ -21,7 +21,7 @@ function displayGridMembers(data) {
     data.companies.forEach((element) => {
         // console.log(element);
         let member = document.createElement('section');
-        let company = document.createElement('h1');
+        let company = document.createElement('h2');
         let address = document.createElement('ul');
         let street = document.createElement('li');
         let city = document.createElement('li');
@@ -56,8 +56,8 @@ function displayGridMembers(data) {
 
 function displayListMembers(data) {  
     data.companies.forEach((element) => {
-        let member = document.createElement('h1');
-        let company = document.createElement('h2');
+        let member = document.createElement('h2');
+        let company = document.createElement('h3');
         let street = document.createElement('p');
         let phone = document.createElement('p');;
         let url = document.createElement('p');
