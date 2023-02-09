@@ -549,8 +549,8 @@ form p {
 .dir-grid img {
     padding-top: 15px;
 }
-.dir-list h2 {
-    font-size: 1.2rem;
+.dir-list h3 {
+    font-size: 1.5rem;
 }
 .dir-list p{
     font-size: 1rem;    
