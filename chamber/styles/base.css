@@ -119,7 +119,7 @@ main {
 	opacity: 0.65;
     padding: 5px;
 }
-#home-title p {
+#home-title h1 {
     font-weight: 600;
     font-size: 4vw;
 }
