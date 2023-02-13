@@ -44,8 +44,7 @@ nav {
 nav a {
     font-size: 18px;
     height: 48px;
-    margin-top: 18px;
-    padding: 2px;
+    margin-top: 8px;
     color: white;
     align-items: center;    
     padding-left: 20px;
@@ -59,9 +58,6 @@ nav a {
     margin: 4px;
     margin-right: 4px;
     padding-top: 16px;    
-}
-.user-cards {
-    margin-right: 30px;
 }
 header {
     display: flex;
@@ -322,16 +318,18 @@ li a.menu-item {
 }
 
 li a.open {    
-    font-size:2vw;
+    font-size:3.5vw;
     max-width: 100%;
     padding-right: 20px;
 	display: flex;
+    flex-direction: row;
 }
 #menu-button {
     max-width: 60px;
-
 }
-
+.user-cards {
+    display: none;
+}
 /* --------DISCOVER PAGE----------- */
 
 #discover-grid {
@@ -521,7 +519,7 @@ form p {
 #thank-p {
     text-align: center;
 }
-/* -------DIRECTORY PAGE----------- */
+/* ------------DIRECTORY PAGE------------------ */
 #d-title {
     color: var(--accent1-color);
     font-size: 3rem;
@@ -568,19 +566,27 @@ form p {
     box-shadow: 5px 5px 10px #6f7364;
     margin: 5px;
 }
-.dir-list section{
+.dir-list h2{
     display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 1rem;
+    flex-direction: column;
+    text-align: left;
 }
 .dir-grid img {
     padding-top: 15px;
 }
 .dir-list h3 {
-    font-size: 1.5rem;
+    font-size: 18px;
+    background: none;
+    align-self: center;
+    text-align: left;
 }
 .dir-list p{
-    font-size: 1rem;    
-}
+    font-size: 14px; 
+    align-self: center;
+    margin: 0 auto;
+    text-align: left;
 
+}
+.dir-list h2:nth-child(even) {
+    background-color: var(--secondary-color);
+}

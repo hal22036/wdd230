@@ -9,7 +9,7 @@
                 "zip": "89031"
             }],
             "phone": "(702)271-7873",
-            "website": "https://extraspace.com",
+            "website": "extraspace.com",
             "image":"images/ess-logo.png",
             "membership": "Silver"
         },
@@ -22,7 +22,7 @@
                 "zip": "89030"
             }],
             "phone": "(702)456-7762",
-            "website": "https://freedsbakery.com",
+            "website": "freedsbakery.com",
             "image":"images/freeds.png",
             "membership": "Bronze"
         },
@@ -35,7 +35,7 @@
                 "zip": "89130"
             }],
             "phone": "(702)227-7433",
-            "website": "https://www.southwestbikes.com/",
+            "website": "southwestbikes.com",
             "image":"images/southwest-bikes.png",
             "membership": "Bronze"
         },
@@ -48,7 +48,7 @@
                 "zip": "89142"
             }],
             "phone": "(702)762-4698",
-            "website": "https://montissmokehousebbq.com/",
+            "website": "montissmokehousebbq.com",
             "image":"images/Montis-Smokehouse.png",
             "membership": "Gold"
         },
@@ -61,7 +61,7 @@
                 "zip": "89081"
             }],
             "phone": "(702)642-7800",
-            "website": "https://www.desertcompanieslv.com/",
+            "website": "desertcompanieslv.com",
             "image":"images/desert-lumber.png",
             "membership": "Gold"
         },
@@ -74,7 +74,7 @@
                 "zip": "89084"
             }],
             "phone": "(702)216-1501",
-            "website": "https://target.com",
+            "website": "target.com",
             "image":"images/target.png",
             "membership": "Gold"
         },
@@ -87,7 +87,7 @@
                 "zip": "89084"
             }],
             "phone": "(702)399-4107",
-            "website": "https://www.rossstores.com/",
+            "website": "rossstores.com",
             "image":"images/logo-ross.png",
             "membership": "Silver"
         },
@@ -100,7 +100,7 @@
                 "zip": "89121"
             }],
             "phone": "(702)4330600",
-            "website": "https://casaamigosrestaurant.com",
+            "website": "casaamigosrestaurant.com",
             "image":"images/casa-amigos.webp",
             "membership": "Gold"
         },
@@ -113,7 +113,7 @@
                 "zip": "89118"
             }],
             "phone": "(702)272-2280",
-            "website": "https://www.immortalcraftbarbers.com/",
+            "website": "immortalcraftbarbers.com",
             "image":"images/immortal_final.png",
             "membership": "Silver"
         },
@@ -126,7 +126,7 @@
                 "zip": "89031"
             }],
             "phone": "(702)530-4660",
-            "website": "https://www.bigmusclegains.com/",
+            "website": "bigmusclegains.com",
             "image":"images/BMG.webp",
             "membership": "Silver"
         }
