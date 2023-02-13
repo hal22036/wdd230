@@ -2,6 +2,8 @@ arrow1 = document.querySelector('.caption1')
 arrow2 = document.querySelector('.caption2')
 arrow3 = document.querySelector('.caption3')
 arrow4 = document.querySelector('.caption4')
+arrow5 = document.querySelector('.caption5')
+arrow6 = document.querySelector('.caption6')
 
 function reName(arrow, response, response2) {
 	var w = window.innerWidth;
@@ -16,3 +18,5 @@ reName(arrow1, 'North Las Vegas Aliante Nature Discovery Park', '🡸 North Las 
 reName(arrow2, 'North Las Vegas Aerial View', 'North Las Vegas Aerial View 🡺');
 reName(arrow3, 'Local Events', '🡸 Local Events');
 reName(arrow4, 'Cannery Hotel and Casino', 'Cannery Hotel and Casino 🡺');
+reName(arrow5, 'Motor Speedway', '🡸 Motor Speedway');
+reName(arrow6, 'Hike Lone Mountain', 'Hike Lone Mountain 🡺');

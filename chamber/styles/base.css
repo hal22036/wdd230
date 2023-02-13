@@ -42,18 +42,26 @@ nav {
     border-bottom: solid var(--primary-color);
 }
 nav a {
-    font-size: 4.5vw;
+    font-size: 18px;
     height: 48px;
     margin-top: 18px;
     padding: 2px;
     color: white;
-    align-items: center;
+    align-items: center;    
+    padding-left: 20px;
+    padding-right: 10px; 
 }
 #nav-login,
-#nav-join {
+#nav-join,
+#nav-home,
+#nav-discover,
+#nav-directory {
     margin: 4px;
-    margin-right: 8px;
+    margin-right: 4px;
     padding-top: 16px;    
+}
+.user-cards {
+    margin-right: 30px;
 }
 header {
     display: flex;
@@ -241,25 +249,43 @@ li {
     padding: 5px;
 }
 footer {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0.5rem;
     color: white;
     background-color: var(--accent2-color);
+    justify-content: center;
 }
 .highlight {
     color: yellow;
 }
+.contact,
+.contact1,
+.contact2,
+.contact3 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#copyright,
+#lastModified {
+    font-size: 3vw;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 #social {
+    padding-top: 10px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center; 
     margin: auto;
     gap: 10px;
 }
-
 
 /* ---------------(Responsive Menu)-------------------------------------------------------------------------- */
 menu {
@@ -363,7 +389,9 @@ li a.open {
 .caption1,
 .caption2,
 .caption3,
-.caption4 {
+.caption4,
+.caption5,
+.caption6 {
     margin: 0 auto;
     margin-top: -10px;
     font-size: 4vw;
@@ -371,7 +399,9 @@ li a.open {
 .img1,
 .img2,
 .img3,
-.img4 {
+.img4,
+.img5,
+.img6 {
     margin: 0 auto;
     width: 100%;
     background: black;
@@ -488,10 +518,8 @@ form p {
 #thank {
     color: var(--primary-color);
 }
-#thank p {
-    margin: 0 auto;
+#thank-p {
     text-align: center;
-    padding: 10px;
 }
 /* -------DIRECTORY PAGE----------- */
 #d-title {
