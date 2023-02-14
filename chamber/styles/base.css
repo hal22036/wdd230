@@ -43,7 +43,7 @@ nav {
 }
 nav a {
     font-size: 18px;
-    height: 48px;
+    height: 40px;
     margin-top: 8px;
     color: white;
     align-items: center;    
@@ -55,8 +55,7 @@ nav a {
 #nav-home,
 #nav-discover,
 #nav-directory {
-    margin: 4px;
-    margin-right: 4px;
+    margin: 8px;
     padding-top: 16px;    
 }
 header {
@@ -164,7 +163,6 @@ main {
 }
 #weather {
     grid-row: 6/7;
-    text-align: center;
 }
 #resources {
     grid-row: 8/9;
@@ -219,15 +217,36 @@ h3 {
     color: var(--primary-color);
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
-    font-size: 5vw;
+    font-size: 4vw;
 }
-#current-temp {
-    padding-top: 10px;
-    font-size: 1.3rem;
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-figure {
+#weather h3 {
+    grid-column: 1/3;
+}
+#weather p{
+    margin: 0;
+    font-size: 16px;
+}
+#weather h4{
+    font-size: 20px;
+    font-weight: 900;
     text-align: center;
-    font-size: 1.3rem;
+    text-decoration: underline;
+    align-self: center;
+    margin: 0;
+    margin-right: 30px;
+    color: var(--accent1-color);
+}
+.weather-section {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.weather-section img {
+    margin-left: 20%;
 }
 .index-list {
     display: inline;
