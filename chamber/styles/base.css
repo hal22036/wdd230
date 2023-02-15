@@ -219,18 +219,18 @@ h3 {
     border-radius: 15px 15px 0px 0px;
     font-size: 4vw;
 }
-#weather {
+#weather2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#weather h3 {
+#weather2 h3 {
     grid-column: 1/3;
 }
-#weather p{
+#weather2 p{
     margin: 0;
     font-size: 16px;
 }
-#weather h4{
+#weather2 h4{
     font-size: 20px;
     font-weight: 900;
     text-align: center;
@@ -242,8 +242,10 @@ h3 {
 }
 .weather-section {
     font-size: 12px;
+    font-weight: 700px;
     text-align: left;
     margin-bottom: 10px;
+    color: var(--accent2-color);
 }
 .weather-section img {
     margin-left: 20%;
