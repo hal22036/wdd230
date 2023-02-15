@@ -242,7 +242,7 @@ h3 {
 }
 .weather-section {
     font-size: 12px;
-    font-weight: 700px;
+    font-weight:700;
     text-align: left;
     margin-bottom: 10px;
     color: var(--accent2-color);
