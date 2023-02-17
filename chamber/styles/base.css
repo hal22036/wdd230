@@ -347,7 +347,8 @@ li a.open {
     flex-direction: row;
 }
 #menu-button {
-    max-width: 60px;
+    max-width: 50%;
+    height: auto;
 }
 .user-cards {
     display: none;
@@ -398,7 +399,7 @@ li a.open {
     text-align: center;
     font-size: 4vw;
     font-weight: 800;
-    text-shadow: 3px 5px var(--accent3-color);
+    text-shadow: 2px 2px var(--accent3-color);
 }
 .align {
     font-size: 4vw;
@@ -413,8 +414,8 @@ li a.open {
 .caption5,
 .caption6 {
     margin: 0 auto;
-    margin-top: -10px;
     font-size: 4vw;
+    color: var(--primary-color);
 }
 .img1,
 .img2,
@@ -595,6 +596,8 @@ form p {
 }
 .dir-grid img {
     padding-top: 15px;
+    width: 40%;
+    height: auto;
 }
 .dir-list h3 {
     font-size: 18px;

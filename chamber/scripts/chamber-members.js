@@ -39,8 +39,8 @@ function displayGridMembers(data) {
         logo.setAttribute('src', element.image);
         logo.setAttribute('alt', element.name);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '40%');
-        logo.setAttribute('height', 'auto');
+        logo.setAttribute('width', element.width);
+        logo.setAttribute('height', element.height);
 
         member.appendChild(company);
         member.appendChild(logo);

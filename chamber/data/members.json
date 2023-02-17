@@ -10,8 +10,10 @@
             }],
             "phone": "(702)271-7873",
             "website": "extraspace.com",
-            "image":"images/ess-logo.png",
-            "membership": "Silver"
+            "image":"images/ess-logo.webp",
+            "membership": "Silver",
+            "width": "300",
+            "height": "136"
         },
         {
             "name": "Freed's Bakery",
@@ -23,8 +25,10 @@
             }],
             "phone": "(702)456-7762",
             "website": "freedsbakery.com",
-            "image":"images/freeds.png",
-            "membership": "Bronze"
+            "image":"images/freeds.webp",
+            "membership": "Bronze",
+            "width": "468",
+            "height": "468"
         },
         {
             "name": "Southwest Bikes",
@@ -36,8 +40,10 @@
             }],
             "phone": "(702)227-7433",
             "website": "southwestbikes.com",
-            "image":"images/southwest-bikes.png",
-            "membership": "Bronze"
+            "image":"images/southwest-bikes.webp",
+            "membership": "Bronze",
+            "width": "250",
+            "height": "87"
         },
         {
             "name": "Monti's BBQ",
@@ -49,8 +55,10 @@
             }],
             "phone": "(702)762-4698",
             "website": "montissmokehousebbq.com",
-            "image":"images/montis.png",
-            "membership": "Gold"
+            "image":"images/montis.webp",
+            "membership": "Gold",
+            "width": "150",
+            "height": "63"
         },
         {
             "name": "Desert Lumber",
@@ -62,8 +70,10 @@
             }],
             "phone": "(702)642-7800",
             "website": "desertcompanieslv.com",
-            "image":"images/desert-lumber.png",
-            "membership": "Gold"
+            "image":"images/desert-lumber.webp",
+            "membership": "Gold",
+            "width": "600",
+            "height": "470"
         },
         {
             "name": "Target",
@@ -75,8 +85,10 @@
             }],
             "phone": "(702)216-1501",
             "website": "target.com",
-            "image":"images/target.png",
-            "membership": "Gold"
+            "image":"images/target.webp",
+            "membership": "Gold",
+            "width": "600",
+            "height": "600"
         },
         {
             "name": "Ross",
@@ -88,8 +100,10 @@
             }],
             "phone": "(702)399-4107",
             "website": "rossstores.com",
-            "image":"images/logo-ross.png",
-            "membership": "Silver"
+            "image":"images/logo-ross.webp",
+            "membership": "Silver",
+            "width": "300",
+            "height": "116"
         },
         {
             "name": "Casa Amigos",
@@ -102,7 +116,9 @@
             "phone": "(702)4330600",
             "website": "casaamigosrestaurant.com",
             "image":"images/casa-amigos.webp",
-            "membership": "Gold"
+            "membership": "Gold",
+            "width": "152",
+            "height": "152"
         },
         {
             "name": "Immortal Craft Barber",
@@ -114,8 +130,10 @@
             }],
             "phone": "(702)272-2280",
             "website": "immortalcraftbarbers.com",
-            "image":"images/immortal.png",
-            "membership": "Silver"
+            "image":"images/immortal.webp",
+            "membership": "Silver",
+            "width": "504",
+            "height": "453"
         },
         {
             "name": "Big Muscle Gains",
@@ -128,7 +146,9 @@
             "phone": "(702)530-4660",
             "website": "bigmusclegains.com",
             "image":"images/bmg.webp",
-            "membership": "Silver"
+            "membership": "Silver",
+            "width": "400",
+            "height": "129"
         }
     ]
 
