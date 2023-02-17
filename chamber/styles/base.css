@@ -225,7 +225,7 @@ h2 {
 }
 #weather {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;    
 }
 #weather p{
     margin: 0;
@@ -250,6 +250,9 @@ h2 {
 }
 .weather-section img {
     margin-left: 10%;
+    margin-top: 5px;
+    border-radius: 25%;
+    background-color: rgb(225, 224, 224);
 }
 .index-list {
     display: inline;
