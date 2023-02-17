@@ -49,7 +49,7 @@
             }],
             "phone": "(702)762-4698",
             "website": "montissmokehousebbq.com",
-            "image":"images/Montis-Smokehouse.png",
+            "image":"images/montis.png",
             "membership": "Gold"
         },
         {
@@ -114,7 +114,7 @@
             }],
             "phone": "(702)272-2280",
             "website": "immortalcraftbarbers.com",
-            "image":"images/immortal_final.png",
+            "image":"images/immortal.png",
             "membership": "Silver"
         },
         {
@@ -127,7 +127,7 @@
             }],
             "phone": "(702)530-4660",
             "website": "bigmusclegains.com",
-            "image":"images/BMG.webp",
+            "image":"images/bmg.webp",
             "membership": "Silver"
         }
     ]

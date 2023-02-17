@@ -34,7 +34,7 @@ function displayResults(data) {
     let desc = data.list[i].weather[0].description;
     const weatherSection = document.createElement("div");
     weatherSection.classList.add("weather-section");
-    const dayOfWeek = document.createElement("h4");
+    const dayOfWeek = document.createElement("h3");
     dayOfWeek.classList.add('day-of-week');
     const description = document.createElement("p");
     const weatherIcon = document.createElement('img');
