@@ -210,6 +210,10 @@ h2 {
     margin: auto;
     text-align: center;
 }
+#weather h2,
+#spotlights h2,
+#resources h2,
+#events h2,
 h3 {
     margin: 0;
     background: var(--secondary-color);
