@@ -1,4 +1,4 @@
-const weather = document.querySelector('#weather2');
+const weather = document.querySelector('#weather');
 
 const myLat = "36.29027911329074";
 const myLon = "-115.15741454610898";
